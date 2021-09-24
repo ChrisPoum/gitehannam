@@ -3,6 +3,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import PublicRoute from "./components/PublicRoute";
 import NotFound from "./components/NotFound";
 import Home from "./pages/Home";
+import Header from "components/Header";
 
 const App = () => {
     
@@ -10,6 +11,7 @@ const App = () => {
 		<section className='App'>
 			<Router>
 				<ScrollToTop />
+				<Header/>
 				<Switch>
 					<PublicRoute
 						restricted={false}
@@ -18,9 +20,9 @@ const App = () => {
 						exact
 						/>
 					<PublicRoute
-              restricted={false}
-              component={NotFound}
-            />
+						restricted={false}
+						component={NotFound}
+          />
 				</Switch>
 			</Router>
 		</section>
