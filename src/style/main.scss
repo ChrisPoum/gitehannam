@@ -1,8 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-.logotext{
-    font-family: "Caveat";
-    font-size: 60px;
-    color: rgba(37, 5, 5, 0.986);
+.App{
+	font-family: "Source Sans Pro";
+	color: #423A36;
 }
+
+.Header{
+	.overnavigation{
+		font-size: 14px;
+	}
+
+	.logotext{
+		font-family: "Caveat";
+		font-size: 60px;
+		color: #423A36;
+	}
+
+	.icons{
+		color: #CF9D6C;
+		vertical-align: text-top!important;
+	}
+
+	.phonelink{
+		text-decoration: none;
+		font-size: 20px!important;
+		color: #CF9D6C;
+	}
+
+	.phonelink:hover{
+		color: #423A36;
+		font-size: 22px!important;
+		transition: 0.5s;
+	}
+
+	.buttoncustom{
+		text-decoration: none!important;
+		background-color: white!important;
+		border-color: #CF9D6C!important;
+		color: #CF9D6C!important;
+
+		&:hover{
+			background-color: #CF9D6C!important;
+			border-color: #CF9D6C!important;
+			color: white!important;
+			transition: 1s!important;
+		}
+
+		&:focus,
+		&:visited {
+			text-decoration: none!important;
+			box-shadow: none!important;
+			outline: none!important;
+		}
+	}
+
+	.colornav{
+		background-color: #423A36;
+	}
+
+	.navbarlink{
+		color: whitesmoke;
+		text-decoration: none;
+		font-weight: bolder;
+		font-size: 20px;
+	}
+
+	.navbarlink:hover{
+		color: #CF9D6C;	
+	}
+}
+
+.DisplayJumbotron{
+	background-image: url(../assets/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+  max-width: 100vw;
+}
+
+.mainbody{
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+	.logotext{
+		font-family: "Caveat";
+		font-size: 60px;
+		color: #423A36;
+	}
+}
+
+.Footer{
+	padding-top: 2rem;
+	background-color: #423A36;
+	color: #c8c0b8;
+
+	.footerlogo{
+		justify-content: center;
+		margin-bottom: 2rem;
+		font-family: "Caveat";
+		font-size: 40px;
+	}
+
+	.footertitle{
+		color: #CF9D6C;
+	}
+
+	.middlecolfooter{
+		border-left: solid #c8c0b8;
+		border-right: solid #c8c0b8;
+		border-width: 1px;
+	}
+
+	.footermentions{
+		margin-top: 2rem;
+		padding-bottom: 1rem;
+		justify-content: center;
+	}
+}
+
+.page_404{
+	padding:40px 0; 
+	background:#fff; 
+	font-family: "Source Sans Pro";
+}
+
+.page_404  img{ 
+	width:100%;
+}
+
+.four_zero_four_bg{
+ 	background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+ 
+.four_zero_four_bg h1{
+	font-size:80px;
+}
+ 
+.four_zero_four_bg h3{
+	font-size:80px;
+}
+       
+.link_404{      
+  color: #fff!important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contant_box_404{ 
+	margin-top:-50px;
+}
+
