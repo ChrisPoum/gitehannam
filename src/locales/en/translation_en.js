@@ -1,6 +1,6 @@
 export const TRANSLATIONS_EN = {
     //header
-    address1: "8 allée des violettes 29600 Saint-Martin-Des-Champs",
+    address1: "15 allée des violettes 29600 Saint-Martin-Des-Champs",
     email: "lamaisonblanche@gmail.com",
     
     //navlink

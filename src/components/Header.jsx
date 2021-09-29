@@ -19,36 +19,43 @@ const Header = ({setLanguage, language}) => {
 	return (
 		<section className='Header'>
 			<Container fluid className='overnavigation'>
-				<Row inline className="m-auto d-flex align-items-center">
+				<Row className="m-auto d-flex align-items-center">
 					<Col md={2} className="text-center">
-						<Row inline >
+						<Row>
 							<Col md={2}>
 								< BsHouseDoor 
-								className="icons"
+								className="icons mt-3"
 								size={30} 
 								/>
 							</Col>
-							<Col md={10} >
-								{t("address1")}
+							<Col md={10}>
+								<a 
+									href="https://www.google.fr/maps/place/15+All.+des+Violettes,+29600+Saint-Martin-des-Champs/@48.5818244,-3.8717121,13z/data=!4m5!3m4!1s0x481160d41bb5eae5:0x965f530bb35122fc!8m2!3d48.5794928!4d-3.8422722"
+									className="links"
+								>
+									{t("address1")}
+								</a>
 							</Col>
 						</Row> 
 					</Col>
 					<Col md={2} className="text-center"> 
-						<Row inline>
+						<Row >
 							<Col md={2}>
 								< HiOutlineMailOpen 
 								className="icons"
 								size={30}
 								/>
 							</Col>
-							<Col md={10}>
-								{t("email")}
+							<Col md={10} className="mt-1">
+								<a href="mailto:lamaisonblanche@gmail.com" className="links">
+									{t("email")}
+								</a>
 							</Col>
 						</Row>
 					</Col>
 					<Col md={4} className="text-center logotext"> Breton Breaks </Col>
 					<Col md={2} className="text-center"> 
-						<Row inline>
+						<Row >
 							<Col md={2}>
 								<FiPhone 
 								className="icons"
@@ -83,7 +90,7 @@ const Header = ({setLanguage, language}) => {
 			<Navbar className="colornav" variant="dark">
 				<Navbar.Toggle aria-controls="navbartoggled" />
 				<Navbar.Collapse id="navbartoggled">
-					<Nav inline className="m-auto d-flex">
+					<Nav className="m-auto d-flex">
 						<Nav.Link> 
 							<Link className="navbarlink px-4" to="/"> 
 								{t("home")} 

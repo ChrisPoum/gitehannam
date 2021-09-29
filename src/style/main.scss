@@ -20,7 +20,16 @@
 
 	.icons{
 		color: #CF9D6C;
-		vertical-align: text-top!important;
+	}
+
+	.links{
+		text-decoration: none;
+		color: #CF9D6C;
+	}
+
+	.links:hover{
+		color: #423A36;
+		transition: 0.5s;
 	}
 
 	.phonelink{
@@ -116,9 +125,20 @@
 	.footermentions{
 		margin-top: 2rem;
 		padding-bottom: 1rem;
-		justify-content: center;
+	}
+
+	.footerlink{
+		text-decoration: none;
+		color: #c8c0b8;
+	}
+
+	.footerlink:hover{
+		color: #CF9D6C;
+		transition: 0.5s;
 	}
 }
+
+//page NotFound
 
 .page_404{
 	padding:40px 0; 
