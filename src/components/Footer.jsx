@@ -1,4 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     
@@ -27,7 +28,9 @@ const Footer = () => {
 					</Col>
 				</Row>
 				<Row className="footermentions">
-					mentions légales
+					<Link className="footerlink text-center" to="/mentionslegales">
+						mentions légales
+					</Link>
 				</Row>
 			</Container>
 		</section>
