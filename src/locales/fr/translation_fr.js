@@ -11,6 +11,8 @@ export const TRANSLATIONS_FR = {
     home:"Accueil",
 
     //homepage
+    welcome:"Bienvenue!",
+    paragraph1:"Cela fait maintenant 3 ans que Chris et moi louons notre propriété appelée  « la maison blanche » à St Martin des Champs, près de Morlaix. Notre aventure a commencé suite à un changement de vie et nous n’avons plus regardé derrière nous !! Nous avons fait de si belles rencontres.",
 
     //Booking
     booking:"Réservez",
