@@ -81,6 +81,8 @@ const Home = () => {
 						</Col>
 					</Row>
 				</div>
+				<div className="comments">		
+				</div>
 				<div className="activities">
 				</div>	
 			</div>
