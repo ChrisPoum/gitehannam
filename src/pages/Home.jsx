@@ -1,8 +1,11 @@
 import { Helmet } from "react-helmet";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import image2 from "../assets/image2.jpg";
 import { FaAirbnb, FaBook } from "react-icons/fa";
+import TestimonySlider from "components/TestimonySlider";
+import RoomsSlider from "components/RoomsSlider";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -11,8 +14,8 @@ const Home = () => {
 		<section className='Home'>
 			<Helmet>
 				<meta charset="utf-8" />
-				<link rel="icon" href="./triskele.png" />
-				<link rel="apple-touch-icon" href="./triskele.png" />
+				<link rel="icon" href="./triskelesmall.png" />
+				<link rel="apple-touch-icon" href="./triskelesmall.png" />
 				<link rel="manifest" href="./manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
@@ -81,10 +84,32 @@ const Home = () => {
 						</Col>
 					</Row>
 				</div>
-				<div className="comments">		
+				<div className="testimonies">
+					<Row >
+						<Col md={12} className="d-flex align-items-center">
+							<TestimonySlider/>
+						</Col>
+					</Row>
 				</div>
-				<div className="activities">
+				<div className="rooms">
+					<h2>
+						{t("rooms")}
+					</h2>
+					<RoomsSlider />
+					<p>
+						{t("paragraph2")}
+					</p>
+					<Button className="buttoncustom">
+						<Link className="buttoncustom" to="/booking">
+							{t("booking")}
+						</Link>
+					</Button>
 				</div>	
+				<div className="tourism">
+					<h2>
+						{t("tourism")}
+					</h2>
+				</div>
 			</div>
 		</section>
 	);
