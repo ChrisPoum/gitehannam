@@ -18,37 +18,37 @@ const RoomsSlider = () => {
 		<div className='RoomsSlider'>
 			<Carousel>
 				<div>
-					<img src={house} alt="exterieur de la maison"/>
+					<img className="sliderimage" src={house} alt="exterieur de la maison"/>
 				</div>
 				<div>
-					<img src={garden1} alt="exterieur vers le jardin"/>
+					<img className="sliderimage" src={garden1} alt="exterieur vers le jardin"/>
 				</div>
 				<div>
-					<img src={garden2} alt="dans le jardin"/>
+					<img className="sliderimage" src={garden2} alt="dans le jardin"/>
 				</div>
 				<div>
-					<img src={living} alt="le salon de la maison"/>
+					<img className="sliderimage" src={living} alt="le salon de la maison"/>
 				</div>
 				<div>
-					<img src={kitchen} alt="la cuisine"/>
+					<img className="sliderimage" src={kitchen} alt="la cuisine"/>
 				</div>
 				<div>
 					<img src={room1} alt="première chambre"/>
 				</div>
 				<div>
-					<img src={room2} alt="seconde chambre"/>
+					<img className="sliderimage" src={room2} alt="seconde chambre"/>
 				</div>
 				<div>
-					<img src={room3} alt="troisième chambre"/>
+					<img className="sliderimage" src={room3} alt="troisième chambre"/>
 				</div>
 				<div>
-					<img src={room4} alt="quatrième chambre"/>
+					<img className="sliderimage" src={room4} alt="quatrième chambre"/>
 				</div>
 				<div>
-					<img src={room5} alt="cinquième chambre"/>
+					<img className="sliderimage" src={room5} alt="cinquième chambre"/>
 				</div>
 				<div>
-					<img src={bathroom} alt="salle de bain"/>
+					<img className="sliderimage" src={bathroom} alt="salle de bain"/>
 				</div>
 			</Carousel>
 		</div>

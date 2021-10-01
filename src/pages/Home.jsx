@@ -6,6 +6,7 @@ import { FaAirbnb, FaBook } from "react-icons/fa";
 import TestimonySlider from "components/TestimonySlider";
 import RoomsSlider from "components/RoomsSlider";
 import { Link } from "react-router-dom";
+import GridGallery from "components/GridGallery";
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -109,6 +110,10 @@ const Home = () => {
 					<h2>
 						{t("tourism")}
 					</h2>
+					<GridGallery />
+					<div className="paragraph3">
+						{t("paragraph3")}
+					</div>
 				</div>
 			</div>
 		</section>
