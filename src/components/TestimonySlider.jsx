@@ -7,7 +7,7 @@ const TestimonySlider = () => {
 	return (
 		<Carousel fade>
 			<Carousel.Item>
-				<Card style={{ width: '40rem' }} className="text-center">
+				<Card className="text-center">
 					<Card.Body>
 						<Card.Title>
 							Leslie, 
@@ -37,7 +37,7 @@ const TestimonySlider = () => {
 				</Card>
 			</Carousel.Item>
 			<Carousel.Item>
-				<Card style={{ width: '40rem' }} className="text-center">
+				<Card className="text-center">
 					<Card.Body>
 						<Card.Title>
 							Joséphine, 
@@ -64,7 +64,7 @@ const TestimonySlider = () => {
 				</Card>
 			</Carousel.Item>
 			<Carousel.Item>
-				<Card style={{ width: '40rem' }} className="text-center">
+				<Card className="text-center">
 					<Card.Body>
 						<Card.Title>
 							Frederic

@@ -143,6 +143,8 @@
 	}
 	.card{
 		border:none;
+		width: 40rem;
+		min-height: 54vh;
 	}
 	.card-text{
 		font-family: "Rubik";
@@ -164,8 +166,21 @@
 }
 
 .rooms{
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-bottom: 5%;
+
+	.RoomsSlider{
+		margin-top: 2%;
+
+		.sliderimage{
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.thumbs-wrapper{
+		margin-left: 8%;
+	}
 
 	.buttoncustom{
 		text-decoration: none!important;
@@ -191,6 +206,12 @@
 
 .tourism{
 	margin-top: 5%;
+	width: 100vw;
+	min-height: 60vh;
+
+	.paragraph3{
+		margin-top: 15%;
+	}
 }
 
 .Footer{
