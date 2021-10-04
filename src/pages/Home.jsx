@@ -6,6 +6,7 @@ import { FaAirbnb, FaBook } from "react-icons/fa";
 import TestimonySlider from "components/TestimonySlider";
 import RoomsSlider from "components/RoomsSlider";
 import { Link } from "react-router-dom";
+import TourismSlider from "components/TourismSlider";
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -32,8 +33,10 @@ const Home = () => {
 				<div className="description">
 					<Row className="m-auto d-flex align-items-center">
 						<Col md={6}>
-							<h2>{t("welcome")}</h2>
-							<p>{t("paragraph1")}</p>
+							<h2 className="subtitle">{t("welcome")}</h2>
+							<p className="paragraph1">
+								{t("paragraph1")}
+							</p>
 						</Col>
 						<Col md={6}>
 							<Row>
@@ -92,26 +95,28 @@ const Home = () => {
 					</Row>
 				</div>
 				<div className="rooms">
-					<h2>
+					<h2 className="subtitle">
 						{t("rooms")}
 					</h2>
+					<Row className="d-flex align-items-center">
+						<Col md={10} className="paragraph2">
+						 {t("paragraph2")}
+						</Col>
+						<Col md={2}>
+							<Button className="buttoncustom2 btn-lg">
+								<Link className="customlink2" to="/booking">
+									{t("booking")}
+								</Link>
+							</Button>
+						</Col>
+					</Row>
 					<RoomsSlider />
-					<p>
-						{t("paragraph2")}
-					</p>
-					<Button className="buttoncustom">
-						<Link className="buttoncustom" to="/booking">
-							{t("booking")}
-						</Link>
-					</Button>
 				</div>	
 				<div className="tourism">
-					<h2>
+					<h2 className="subtitle text-center">
 						{t("tourism")}
 					</h2>
-					<div className="paragraph3">
-						{t("paragraph3")}
-					</div>
+					<TourismSlider />
 				</div>
 			</div>
 		</section>
