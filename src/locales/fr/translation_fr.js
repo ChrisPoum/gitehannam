@@ -22,7 +22,20 @@ export const TRANSLATIONS_FR = {
 
     //Booking
     booking:"Réservez",
+    explainbooking:"Vérifier les disponibilités sur notre calendrier et contacter nous pour réserver, ou réserver avec nos partenaires.",
+    partners:"Nos partenaires",
+    contactus:"Contactez nous",
 
     //AboutUs
     aboutus:"A Propos",
+    host:"A propos de vos hôtes:",
+    profiletitle:"Françoise et Chistopher Hannam",
+    language:"Langues",
+    engfr:"anglais et français",
+    superhost:"Nous sommes pour vous accueillir.",
+
+    //Contacts
+    addresstag:"Adresse",
+    emailtag:"Courriel",
+    phonetag:"Téléphone",
 };
