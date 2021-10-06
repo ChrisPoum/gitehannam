@@ -28,4 +28,14 @@ export const TRANSLATIONS_EN = {
 
     //AboutUs
     aboutus:"About Us",
+    host:"About your hosts :",
+    profiletitle:"Françoise and Chistopher Hannam",
+    language:"Languages",
+    engfr:"english and french",
+    superhost:"We are here to welcome you.",
+
+    //Contacts
+    addresstag:"address",
+    emailtag:"email",
+    phonetag:"phone",
 };

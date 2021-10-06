@@ -34,24 +34,26 @@
 	.links{
 		text-decoration: none;
 		color: #CF9D6C;
+		
+		&:hover{
+			color: #423A36;
+			transition: 0.5s;
+		}
 	}
 
-	.links:hover{
-		color: #423A36;
-		transition: 0.5s;
-	}
 
 	.phonelink{
 		text-decoration: none;
 		font-size: 20px!important;
 		color: #CF9D6C;
+		
+		&:hover{
+			color: #423A36;
+			font-size: 22px!important;
+			transition: 0.5s;
+		}
 	}
 
-	.phonelink:hover{
-		color: #423A36;
-		font-size: 22px!important;
-		transition: 0.5s;
-	}
 
 	.buttoncustom{
 		text-decoration: none!important;
@@ -83,11 +85,12 @@
 		text-decoration: none;
 		font-weight: bolder;
 		font-size: 20px;
+		
+		&:hover{
+			color: #CF9D6C;	
+		}
 	}
 
-	.navbarlink:hover{
-		color: #CF9D6C;	
-	}
 }
 
 .DisplayJumbotron{
@@ -97,6 +100,8 @@
   min-height: 480px;
   max-width: 100vw;
 }
+
+//home page mainbody and subclasses
 
 .mainbody{
 	margin-left: 2rem;
@@ -136,14 +141,15 @@
 	.iconsnotes{
 		color: #423A36;
 		text-decoration: none;
+		
+		&:hover{
+			color: white;
+			font-size: 22px;
+			scale: 1.3;
+			transition: 0.5s;
+		}
 	}
 
-	.iconsnotes:hover{
-		color: white;
-		font-size: 22px;
-		scale: 1.3;
-		transition: 0.5s;
-	}
 
 	.testimonies{
 		margin-top: 5%;
@@ -171,11 +177,12 @@
 		.iconstestimonies{
 			text-decoration: none;
 			color: #423A36;
-		}
-		.iconstestimonies:hover{
-			color: #CF9D6C;
-			scale: 1.3;
-			transition: 0.5s;
+			
+			&:hover{
+				color: #CF9D6C;
+				scale: 1.3;
+				transition: 0.5s;
+			}
 		}
 	}
 	
@@ -226,12 +233,13 @@
 		.customlink2{
 			text-decoration: none!important;
 			color: white!important;
+			
+			&:hover{
+				color: #CF9D6C!important;
+				transition: 0.5s!important;
+			}
 		}
 
-		.customlink2:hover{
-			color: #CF9D6C!important;
-			transition: 0.5s!important;
-		}
 	}
 	
 	.tourism{
@@ -318,7 +326,16 @@
 	}
 }
 
+//booking page
+
 .Booking{
+	margin-top: 2%;
+	margin-bottom: 4%;
+
+	.row{
+		max-width: 100vw;
+	}
+
 	.iconsbooking{
 		color: #CF9D6C;
 
@@ -358,6 +375,98 @@
 		}
 	}
 }
+
+//about us page
+
+.AboutUs{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	.profile{
+		border-radius: 50%;
+	}
+
+	.profiletitle{
+		font-size: 25px;
+	}
+
+	.custombutton4{
+		background-color: #CF9D6C!important;
+		border-color: #CF9D6C!important;
+		
+		&:hover{
+			background-color: white!important;
+			border-color: #CF9D6C!important;
+			color: #CF9D6C!important;
+			transition: 0.5s!important;
+		}
+
+		&:focus,
+		&:visited {
+			text-decoration: none!important;
+			box-shadow: none!important;
+			outline: none!important;
+		}
+	}
+
+	.customlink4{
+		text-decoration: none!important;
+		color: white!important;
+
+		&:hover{
+			color: #CF9D6C!important;
+			transition: 0.5s!important;
+		}
+	}
+}
+
+//contacts page
+
+.Contacts{
+	margin-top: 2%;
+	margin-bottom: 4%;
+
+	.row{
+		max-width: 100vw;
+	}
+
+	.links{
+		text-decoration: none;
+		color: #CF9D6C;
+		
+		&:hover{
+			color: #423A36;
+			transition: 0.5s;
+		}
+	}
+
+	.contactform{
+		width: 70%;
+	}
+
+	.custombutton4{
+		background-color: #CF9D6C!important;
+		border-color: #CF9D6C!important;
+		
+		&:hover{
+			background-color: white!important;
+			border-color: #CF9D6C!important;
+			color: #CF9D6C!important;
+			transition: 0.5s!important;
+		}
+
+		&:focus,
+		&:visited {
+			text-decoration: none!important;
+			box-shadow: none!important;
+			outline: none!important;
+		}
+	}
+}
+
+//footer
 
 .Footer{
 	padding-top: 2rem;
@@ -422,7 +531,6 @@
 			transition: 0.5s;
 		}
 	}
-
 }
 
 //page NotFound

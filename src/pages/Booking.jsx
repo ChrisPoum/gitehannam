@@ -2,12 +2,28 @@ import { Button, Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { FaAirbnb, FaBook, FaTripadvisor } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Booking = () => {
 	const { t } = useTranslation();
     
 	return (
 		<section className='Booking text-center'>
+			<Helmet>
+				<meta charset="utf-8" />
+				<link rel="icon" href="./triskelesmall.png" />
+				<link rel="apple-touch-icon" href="./triskelesmall.png" />
+				<link rel="manifest" href="./manifest.json" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="theme-color" content="#000000" />
+				<meta
+					name="description"
+					content="Réserver vos vacances avec Breton Breaks, grande maison avec 10 couchages pour des locations 
+					de les vacances dans la baie de Morlaix, 
+					15 allée des violettes 29600 Saint-Martin-Des-Champs."
+				/>
+				<title>Breton Breaks</title>
+			</Helmet>
 			<h2 className="mt-4">
 				{t("booking")}
 			</h2>
