@@ -1,11 +1,10 @@
 import { Col, Row, Form, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-import { useRef } from "react";
 
 const Contacts = () => {
 	const { t } = useTranslation();
-	const form = useRef();
+	
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -93,7 +92,6 @@ const Contacts = () => {
 			>
 				<Form
 					className="contactform"
-					ref={form}
 					onSubmit={sendEmail}
 				>
 					<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
