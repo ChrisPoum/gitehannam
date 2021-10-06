@@ -12,7 +12,7 @@ const Footer = () => {
 				<Row className="footerlogo">
 					Breton Breaks
 				</Row>
-				<Row inline className="m-auto d-flex align-items-center">
+				<Row className="m-auto d-flex align-items-center">
 					<Col md={4} className="text-center">
 						<p className="footertitle">
 							{t("quicklinks")}

@@ -22,6 +22,9 @@ export const TRANSLATIONS_EN = {
 
     //Booking
     booking:"Book Now",
+    explainbooking:"Check availability before contacting us to book dates, or book online with our partners.",
+    partners:"Our partners",
+    contactus:"Contact Us",
 
     //AboutUs
     aboutus:"About Us",
