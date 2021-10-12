@@ -102,10 +102,9 @@ const Home = () => {
 					</Row>
 				</div>
 				<div className="rooms">
-					<h2 className="subtitle text-center">
+					<h2 className="subtitle mb-4">
 						{t("rooms")}
 					</h2>
-					
 					<div className="d-inline-flex">
 						<div className="slider mx-0">
 							<RoomsSlider />
@@ -123,7 +122,6 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-
 				</div>	
 				<div className="tourism">
 					<h2 className="subtitle text-center">
