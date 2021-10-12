@@ -74,12 +74,12 @@ const Header = ({setLanguage, language}) => {
 						{(
 							language === "fr" && (
 									<Button className="buttoncustom" value="en" onClick={handleOnclick}>
-										English <ReactCountryFlag countryCode="GB" svg alt="english flag"/>
+										English <ReactCountryFlag countryCode="GB" svg alt="english flag" className="flag"/>
 									</Button>
 							)) || (
 							language === "en" && (
 									<Button className="buttoncustom" value="fr" onClick={handleOnclick}>
-										Français <ReactCountryFlag countryCode="FR" svg alt="drapeau français"/>
+										Français <ReactCountryFlag countryCode="FR" svg alt="drapeau français" className="flag"/>
 									</Button>
 							))
 						}
