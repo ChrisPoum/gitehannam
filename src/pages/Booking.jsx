@@ -24,7 +24,7 @@ const Booking = () => {
 				/>
 				<title>Breton Breaks</title>
 			</Helmet>
-			<h2 className="mt-4">
+			<h2 className="mt-4 subtitle">
 				{t("booking")}
 			</h2>
 			<Row>

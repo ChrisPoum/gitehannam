@@ -1,16 +1,10 @@
-import { Col, Row, Form, Button } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
+import hostpicture from "../assets/chrishannam.webp";
 
 const Contacts = () => {
 	const { t } = useTranslation();
-	
-
-	const sendEmail = (e) => {
-		e.preventDefault();
-
-		console.log("coucou!")
-	};
     
 	return (
 		<section className='Contacts'>
@@ -29,7 +23,30 @@ const Contacts = () => {
 				/>
 				<title>Breton Breaks</title>
 			</Helmet>
-			<h2 className="text-center">Contacts</h2>
+			<h2 className="text-center mb-3 subtitle">Contacts</h2>
+			<Row className="d-flex justify-content center">
+				<Col
+					className="d-flex justify-content-end" 
+					md={5}
+				>
+					<img 
+						className="profile"
+						src={hostpicture}
+						alt="Christopher and Françoise Hannam"
+					/>
+				</Col>
+				<Col md={7} className="mt-4">
+					<p className="profiletitle">
+						{t("profiletitle")}
+					</p>
+					<p> 
+						{t("language")} : {t("engfr")} 
+					</p>
+					<p>
+						{t("superhost")}
+					</p>
+				</Col>
+			</Row>	
 			<Row 
 				className="d-flex justify-content-center mt-4"
 			>
@@ -86,27 +103,7 @@ const Contacts = () => {
 						+(33)0789029200
 					</a>
 				</Col>
-			</Row>
-			<div
-				className="d-flex justify-content-center mt-5 mb-5"
-			>
-				<Form
-					className="contactform"
-					onSubmit={sendEmail}
-				>
-					<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-						<Form.Label>Email address</Form.Label>
-						<Form.Control type="email" placeholder="name@example.com" />
-					</Form.Group>
-					<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-						<Form.Label>Example textarea</Form.Label>
-						<Form.Control as="textarea" rows={3} />
-					</Form.Group>
-					<Button className="btn-lg custombutton4" type="submit">
-						send
-					</Button>
-				</Form>
-			</div>			
+			</Row>			
 		</section>
 	);
 };

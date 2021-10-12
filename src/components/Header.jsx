@@ -101,11 +101,6 @@ const Header = ({setLanguage, language}) => {
 								{t("booking")}
 							</Link>
 						</Nav.Link>   
-						<Nav.Link> 
-							<Link className="navbarlink px-4" to="/aboutus"> 
-								{t("aboutus")} 
-							</Link>
-						</Nav.Link> 
 						<Nav.Link>
 							<Link className="navbarlink px-4" to="/contacts"> 
 								Contacts 

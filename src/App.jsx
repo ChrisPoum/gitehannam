@@ -8,7 +8,6 @@ import DisplayJumbotron from "components/DisplayJumbotron";
 import Footer from "components/Footer";
 import Home from "./pages/Home";
 import Booking from "pages/Booking";
-import AboutUs from "pages/AboutUs";
 import Contacts from "pages/Contacts";
 import MentionsLegales from "pages/MentionsLegales";
 
@@ -32,12 +31,6 @@ const App = () => {
 						restricted={false}
 						component={Booking}
 						path="/booking"
-						exact
-					/>
-					<PublicRoute
-						restricted={false}
-						component={AboutUs}
-						path="/aboutus"
 						exact
 					/>
 					<PublicRoute
