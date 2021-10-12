@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button, Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import image2 from "../assets/image2.jpg";
-import { FaAirbnb, FaBook } from "react-icons/fa";
+import { FaAirbnb, FaBook, FaStar } from "react-icons/fa";
 import TestimonySlider from "components/TestimonySlider";
 import RoomsSlider from "components/RoomsSlider";
 import { Link } from "react-router-dom";
@@ -39,17 +39,24 @@ const Home = () => {
 							</p>
 						</Col>
 						<Col md={6}>
-							<Row>
-								<Col md={6}>
+							<Container className="fluid d-inline-flex">
+								<div>
 									<img
 										className="image2"  
 										src={image2} 
 										alt="vue du jardin derrière la maison"
 									/>
-								</Col>
-								<Col md={6}>
+								</div>
+								<div>
 									<div className="notes d-flex align-items-center justify-content-center">
 										<div>
+											<p className="text-center">
+												<FaStar size={20}/>
+												<FaStar size={20}/>
+												<FaStar size={20}/>
+												<FaStar size={20}/>
+												<FaStar size={20}/>
+											</p>
 											<p>
 												<a 
 													className="iconsnotes"
@@ -62,7 +69,7 @@ const Home = () => {
 													Airbnb
 												</a>  
 												<span className="stylenotes mx-2">
-													4,97 / 5
+													4,97/5
 												</span>
 											</p>
 											<p>
@@ -77,13 +84,13 @@ const Home = () => {
 													Booking
 												</a>  
 												<span className="stylenotes mx-2">
-													9,7 / 10
+													9,7/10
 												</span> 
 											</p>
 										</div>
 									</div>
-								</Col>
-							</Row>
+								</div>
+							</Container>
 						</Col>
 					</Row>
 				</div>
@@ -95,22 +102,28 @@ const Home = () => {
 					</Row>
 				</div>
 				<div className="rooms">
-					<h2 className="subtitle">
+					<h2 className="subtitle text-center">
 						{t("rooms")}
 					</h2>
-					<Row className="d-flex align-items-center">
-						<Col md={10} className="paragraph2">
-						 {t("paragraph2")}
-						</Col>
-						<Col md={2}>
-							<Button className="buttoncustom2 btn-lg">
-								<Link className="customlink2" to="/booking">
-									{t("booking")}
-								</Link>
-							</Button>
-						</Col>
-					</Row>
-					<RoomsSlider />
+					
+					<div className="d-inline-flex">
+						<div className="slider mx-0">
+							<RoomsSlider />
+						</div>
+						<div className="paragraph2 mx-0">
+							<p>
+								{t("paragraph2")}
+							</p>
+							<p className="text-center">
+								<Button className="buttoncustom2 btn-lg">
+									<Link className="customlink2" to="/booking">
+										{t("booking")}
+									</Link>
+								</Button>
+							</p>
+						</div>
+					</div>
+
 				</div>	
 				<div className="tourism">
 					<h2 className="subtitle text-center">

@@ -124,18 +124,20 @@
 	.image2{
 		height: 200px;
 		width: 340px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	}
 
 	.notes{
-		width: 100%;
+		width: 20vw;
 		height: 100%;
 		background-color: #CF9D6C;
 		color: #423A36;
 		font-size: 20px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	}
 
 	.stylenotes{
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.iconsnotes{
@@ -189,26 +191,31 @@
 	.rooms{
 		margin-top: 2%;
 		margin-bottom: 5%;
+
+		.slider{
+			width: 50vw;
+
+			.RoomsSlider{
+
+				.thumbs-wrapper{
+					display:none;
+				}
 	
-		.RoomsSlider{
-			margin-top: 2%;
-	
-			.sliderimage{
-				height: 100%;
-				width: 100%;
+				.thumb{
+					display: none;
+				}
 			}
 		}
 
 		.paragraph2{
-			margin-top: 2%;
+			padding-top: 4rem;
 			padding-left: 2rem;
 			padding-right: 2rem;
 			text-align: justify;
 			font-size: 20px;
-		}
-	
-		.thumbs-wrapper{
-			margin-left: 8%;
+			background-color: #c8c0b8;
+			color: #423A36;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 		}
 	
 		.buttoncustom2{
