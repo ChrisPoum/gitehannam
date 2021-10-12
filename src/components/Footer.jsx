@@ -24,9 +24,6 @@ const Footer = () => {
 							<Link className="footerlink" to="/booking">{t("booking")}</Link>
 						</p>
 						<p>
-							<Link className="footerlink" to="/aboutus">{t("aboutus")}</Link>
-						</p>
-						<p>
 							<Link className="footerlink" to="/contacts">Contacts</Link>
 						</p>
 					</Col>

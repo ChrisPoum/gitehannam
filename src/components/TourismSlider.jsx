@@ -4,12 +4,31 @@ import imageleft from "../assets/tourismpictures/rueangedeguernisac.jpg";
 import imagebottomleft from "../assets/tourismpictures/chateaudutaureau.jpg";
 import imagebottomcenter from "../assets/tourismpictures/viaducmorlaix.jpg";
 import imagebottomright from "../assets/tourismpictures/ilelouetettaureau.jpg";
+import imagetopleft from "../assets/tourismpictures/montarre.jpeg";
+import imagetoprigth from "../assets/tourismpictures/montarreelac.jpeg";
 
 const TourismSlider = () => {
 	const { t } = useTranslation();
     
 	return (
 		<div className='TourismSlider'>
+			<Row>
+				<Col md={4}></Col>
+				<Col md={4}>
+					<img
+						src={imagetopleft}
+						className="shadow-1-strong rounded imagetopleft"
+						alt="mont d'arrée, roc'h Trévelez"
+					/>
+				</Col>
+				<Col md={4}>
+					<img
+						src={imagetoprigth}
+						className="shadow-1-strong rounded imagetopright"
+						alt="mont d'arrée, le lac de Brennilis et le mont saint Michel de Braspart"
+					/>
+				</Col>
+			</Row>
 			<Row>
 				<Col lg={4} md={4} mb={4} mb-lg={0}>
 					<img
@@ -18,7 +37,6 @@ const TourismSlider = () => {
 						alt="rue ange de Guernisac à Morlaix, maison à colombage."
 					/>
 				</Col>
-
 				<Col lg={8} mb={8} mb-lg={0} className="paragraph3">
 					<p>
 						{t("paragraph3a")}
