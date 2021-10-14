@@ -233,8 +233,11 @@
 			&:hover{
 				background-color: #c8c0b8!important;
 				border-color: #CF9D6C!important;
-				color: #CF9D6C!important;
 				transition: 0.5s!important;
+
+				.customlink2{
+					color: #CF9D6C!important;
+				}
 			}
 	
 			&:focus,
@@ -248,11 +251,6 @@
 		.customlink2{
 			text-decoration: none!important;
 			color: white!important;
-			
-			&:hover{
-				color: #CF9D6C!important;
-				transition: 0.5s!important;
-			}
 		}
 
 	}
@@ -363,8 +361,11 @@
 			&:hover{
 				background-color: #CF9D6C!important;
 				border-color: #423A36!important;
-				color: #423A36!important;
 				transition: 0.5s!important;
+				
+				.customlink3{
+					color: #423A36!important;
+				}
 			}
 	
 			&:focus,
@@ -378,11 +379,6 @@
 		.customlink3{
 			text-decoration: none!important;
 			color: white!important;
-
-			&:hover{
-				color: #423A36!important;
-				transition: 0.5s!important;
-			}
 		}
 	}
 }
@@ -421,14 +417,17 @@
 	}
 
 	.custombutton4{
+		text-decoration: none!important;
 		background-color: #CF9D6C!important;
 		border-color: #CF9D6C!important;
 		
 		&:hover{
 			background-color: white!important;
 			border-color: #CF9D6C!important;
-			color: #CF9D6C!important;
 			transition: 0.5s!important;
+			.customlink4{
+				color: #CF9D6C!important;
+			}
 		}
 
 		&:focus,
@@ -442,11 +441,6 @@
 	.customlink4{
 		text-decoration: none!important;
 		color: white!important;
-
-		&:hover{
-			color: #CF9D6C!important;
-			transition: 0.5s!important;
-		}
 	}
 }
 
