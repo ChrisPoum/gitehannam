@@ -27,7 +27,7 @@ export const TRANSLATIONS_FR = {
     contactus:"Contactez nous",
     season1:"Haute Saison",
     season2:"Basse Saison",
-    price1:"200€ par nuit",
+    price1:"250€ par nuit",
     price2:"150€ par nuit",
     bookingtext:"ou Réservez avec nos partenaires",
 
