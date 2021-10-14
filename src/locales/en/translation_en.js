@@ -25,6 +25,11 @@ export const TRANSLATIONS_EN = {
     explainbooking:"Check availability before contacting us to book dates, or book online with our partners.",
     partners:"Our partners",
     contactus:"Contact Us",
+    season1:"Peak Season",
+    season2:"Off Season",
+    price1:"200€ per night",
+    price2:"150€ per night",
+    bookingtext:"or book with our partners",
 
     //AboutUs
     aboutus:"About Us",
