@@ -25,6 +25,11 @@ export const TRANSLATIONS_FR = {
     explainbooking:"Vérifier les disponibilités sur notre calendrier et contacter nous pour réserver, ou réserver avec nos partenaires.",
     partners:"Nos partenaires",
     contactus:"Contactez nous",
+    season1:"Haute Saison",
+    season2:"Basse Saison",
+    price1:"200€ par nuit",
+    price2:"150€ par nuit",
+    bookingtext:"ou Réservez avec nos partenaires",
 
     //AboutUs
     aboutus:"A Propos",
