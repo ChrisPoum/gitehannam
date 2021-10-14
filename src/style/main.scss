@@ -108,13 +108,15 @@
   font-size: xx-large;
 
   .firstrow{
+	max-width: 100vw;
 	height: 240px;
-	margin-right: 2rem;
+	padding-right: 2rem;
   }
 
   .secondrow{
+	max-width: 100vw;
 	height: 240px;
-	margin-left: 2rem;
+	padding-left: 2rem;
   }
 
   .iconsjumbo{
