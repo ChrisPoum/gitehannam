@@ -113,17 +113,15 @@ const Booking = () => {
 				</Col>
 			</Row>
 			<iframe 
-				className="mt-5"
-				src="https://calendar.google.com/calendar/embed?src=jeremyquerne%40hotmail.fr&ctz=Europe%2FParis" 
-				style={{
-					border: 0,
-					width: 800, 
-					height: 600, 
-					frameborder: 0, 
-					scrolling: "no"
-				}}
-				title="calendrier test"
-				>
+				src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&showTitle=0&showNav=0&showPrint=0&showDate=1&showTabs=1&showCalendars=0&showTz=0&src=amVyZW15cXVlcm5lQGhvdG1haWwuZnI&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" 
+				width="800" 
+				height="600" 
+				frameborder="0" 
+				scrolling="no"
+				title="calendrier des disponiblités"
+				alt="les dates disponibles par un calendrier"
+				className="calendar mt-5"
+			>
 			</iframe>
 		</section>
 	);

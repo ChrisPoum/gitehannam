@@ -389,6 +389,10 @@
 	margin-top: 2%;
 	margin-bottom: 4%;
 
+	.calendar{
+		border-width:0;
+	}
+
 	.row{
 		max-width: 100vw;
 	}
@@ -408,6 +412,12 @@
 		min-height: 20vh;
 		border-radius: 5px;
 		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+		&:hover{
+			transform: scale(1.05);
+			box-shadow: rgba(0, 0, 0, 0.75) 2px 5px 10px;
+			transition: 0.3s;
+		}
 	}
 
 	.price{
