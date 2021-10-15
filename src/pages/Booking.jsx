@@ -39,7 +39,7 @@ const Booking = () => {
 					de les vacances dans la baie de Morlaix, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
-				<title>Breton Breaks</title>
+				<title>Breton Breaks - Booking</title>
 			</Helmet>
 			<h2 className="mt-4 subtitle">
 				{t("booking")}
