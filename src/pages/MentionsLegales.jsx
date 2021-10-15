@@ -16,7 +16,7 @@ const MentionsLegales = () => {
 					content=" mentions légales pour le site breton breaks, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
-				<title>Breton Breaks</title>
+				<title>Breton Breaks - Mentions Légales</title>
 			</Helmet>
 			<h2>Mentions Légales</h2>
 		</section>
