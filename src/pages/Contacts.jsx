@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import hostpicture from "../assets/chrishannam.webp";
 

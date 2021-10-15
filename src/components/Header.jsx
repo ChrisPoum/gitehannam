@@ -1,4 +1,4 @@
-import { Navbar, Nav, Row, Col, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Row, Col, Container, Button, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { BsHouseDoor } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -91,21 +91,21 @@ const Header = ({setLanguage, language}) => {
 				<Navbar.Toggle aria-controls="navbartoggled" />
 				<Navbar.Collapse id="navbartoggled">
 					<Nav className="m-auto d-flex">
-						<Nav.Link> 
+						<NavItem> 
 							<Link className="navbarlink px-4" to="/"> 
 								{t("home")} 
 							</Link>
-						</Nav.Link>
-						<Nav.Link> 
+						</NavItem>
+						<NavItem> 
 							<Link className="navbarlink px-4" to="/booking"> 
 								{t("booking")}
 							</Link>
-						</Nav.Link>   
-						<Nav.Link>
+						</NavItem>   
+						<NavItem>
 							<Link className="navbarlink px-4" to="/contacts"> 
 								Contacts 
 							</Link>
-						</Nav.Link>
+						</NavItem>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
