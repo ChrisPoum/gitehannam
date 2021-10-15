@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { Row, Col, Button, Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import image2 from "../assets/image2.jpg";
@@ -26,6 +26,16 @@ const Home = () => {
 					de les vacances dans la baie de Morlaix, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
+				<meta 
+					http-equiv="Content-Security-Policy" 
+					content="
+						connect-src 'self';
+						default-src 'https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&showTitle=0&showNav=0&showPrint=0&showDate=1&showTabs=1&showCalendars=0&showTz=0&src=amVyZW15cXVlcm5lQGhvdG1haWwuZnI&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043';
+						img-src 'self';
+						manifest-src 'self';
+						script-src-elem 'self'; 
+						style-src-elem 'self';
+				"/>
 				<title>Breton Breaks</title>
 			</Helmet>
 			<div className="mainbody">
