@@ -42,14 +42,14 @@ const Home = () => {
 				<h1 className="logotext">Breton Breaks</h1>
 				<div className="description">
 					<Row className="m-auto d-flex align-items-center">
-						<Col md={6}>
+						<Col sm={12} md={6}>
 							<h2 className="subtitle">{t("welcome")}</h2>
 							<p className="paragraph1">
 								{t("paragraph1")}
 							</p>
 						</Col>
-						<Col md={6}>
-							<Container className="fluid d-inline-flex">
+						<Col sm={12} md={6}>
+							<Container className="fluid d-inline-flex notescontainer">
 								<div>
 									<img
 										className="image2"  
@@ -106,7 +106,7 @@ const Home = () => {
 				</div>
 				<div className="testimonies">
 					<Row >
-						<Col md={12} className="d-flex align-items-center">
+						<Col sm={12} md={12} className="d-flex align-items-center">
 							<Suspense fallback={<div>Chargement...</div>}>
 								<TestimonySlider/>
 							</Suspense>

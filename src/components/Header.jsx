@@ -20,7 +20,7 @@ const Header = ({setLanguage, language}) => {
 		<section className='Header'>
 			<Container fluid className='overnavigation'>
 				<Row className="m-auto d-flex align-items-center">
-					<Col md={2} className="text-center">
+					<Col md={2} className="text-center headercontent">
 						<Row>
 							<Col md={2}>
 								< BsHouseDoor 
@@ -38,7 +38,7 @@ const Header = ({setLanguage, language}) => {
 							</Col>
 						</Row> 
 					</Col>
-					<Col md={2} className="text-center"> 
+					<Col md={2} className="text-center headercontent"> 
 						<Row >
 							<Col md={2}>
 								< HiOutlineMailOpen 
@@ -54,7 +54,7 @@ const Header = ({setLanguage, language}) => {
 						</Row>
 					</Col>
 					<Col md={4} className="text-center logotext"> Breton Breaks </Col>
-					<Col md={2} className="text-center"> 
+					<Col md={2} className="text-center headercontent"> 
 						<Row >
 							<Col md={2}>
 								<FiPhone 
