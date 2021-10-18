@@ -21,7 +21,7 @@ const Contacts = () => {
 					de les vacances dans la baie de Morlaix, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
-				<title>Breton Breaks - Contacts</title>
+				<title>Breton Breaks - Contacts</title>	
 			</Helmet>
 			<h2 className="text-center mb-3 subtitle">Contacts</h2>
 			<Row className="d-flex justify-content center">

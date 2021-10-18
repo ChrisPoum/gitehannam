@@ -27,6 +27,15 @@ const Home = () => {
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
 				<title>Breton Breaks</title>
+				<meta http-equiv="Content-Security-Policy" 
+							content="default-src 'none'; 
+											script-src 'self' 'unsafe-inline'; 
+											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
+											font-src 'self' https://fonts.gstatic.com;
+											img-src *; 
+											frame-src *; 
+											base-uri 'self';" 
+				/>	
 			</Helmet>
 			<div className="mainbody">
 				<h1 className="logotext">Breton Breaks</h1>
