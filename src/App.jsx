@@ -4,22 +4,25 @@ import ScrollToTop from "./components/ScrollToTop";
 import PublicRoute from "./components/PublicRoute";
 import NotFound from "./components/NotFound";
 import Header from "components/Header";
-import DisplayJumbotron from "components/DisplayJumbotron";
 import Footer from "components/Footer";
 import Home from "./pages/Home";
 import Booking from "pages/Booking";
 import Contacts from "pages/Contacts";
 import MentionsLegales from "pages/MentionsLegales";
+import React, { Suspense } from 'react';
 
 const App = () => {
 	const [language, setLanguage] = useState('fr');
+	const DisplayJumbotron = React.lazy(() => import("components/DisplayJumbotron"));
     
 	return (
 		<section className='App'>
 			<Router>
 				<ScrollToTop />
 				<Header setLanguage={setLanguage} language={language}/>
-				<DisplayJumbotron />
+				<Suspense fallback={<div>Chargement...</div>}>
+					<DisplayJumbotron />
+				</Suspense>
 				<Switch>
 					<PublicRoute
 						restricted={false}
