@@ -4,8 +4,8 @@ import imageleft from "../assets/tourismpictures/rueangedeguernisac.jpg";
 import imagebottomleft from "../assets/tourismpictures/chateaudutaureau.jpg";
 import imagebottomcenter from "../assets/tourismpictures/viaducmorlaix.jpg";
 import imagebottomright from "../assets/tourismpictures/ilelouetettaureau.jpg";
-import imagetopleft from "../assets/tourismpictures/montarre.jpeg";
-import imagetoprigth from "../assets/tourismpictures/montarreelac.jpeg";
+import imagetopleft from "../assets/tourismpictures/montarre.jpg";
+import imagetoprigth from "../assets/tourismpictures/montarreelac.jpg";
 
 const TourismSlider = () => {
 	const { t } = useTranslation();
