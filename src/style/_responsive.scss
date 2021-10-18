@@ -1,0 +1,80 @@
+//mobile phone screen rules
+
+@media screen and (max-width: 480px) {
+    .App{
+        max-width: 100vw!important;
+    }
+
+    .logotext{
+        font-size: 40px!important;
+    }
+
+    .subtitle{
+        font-size: 30px!important;
+    }
+
+    .Header{
+        .headercontent{
+            display: none!important;
+        }
+
+        #buttonlanguage{
+            display: flex!important;
+            justify-content: right!important;
+            margin-bottom: 1rem;
+        }
+    }
+    .DisplayJumbotron{
+        max-height: 300px!important;
+    }
+
+    .mainbody{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        .paragraph1{
+            font-size: 18px!important;
+            padding-left: 1rem!important;
+            padding-right: 1rem!important;
+        }
+
+        .notescontainer{
+            display: flex!important;
+            flex-direction: column!important;
+            justify-content: start!important;
+            padding: 0!important;
+            margin: 0!important;
+
+            .image2{
+                
+                &:hover{
+                    transform: none;
+                }
+            }
+
+            .notes{
+                width: 340px!important;
+            }
+        }
+
+        .testimonies{
+            .carousel-indicator.carousel-control-prev.sr-only.carousel-control-next{
+                display: none!important;
+            }
+
+            .carousel-inner{
+                margin-left: 0!important;
+            }
+
+            .card{ 
+                width: 75vw!important;
+                min-height: 25vh!important;
+            }
+
+            .card-text{
+                width: 75vw!important;
+                font-size: 12px!important;
+            }
+        }
+    }
+}
