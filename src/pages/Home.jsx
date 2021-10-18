@@ -3,13 +3,14 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import image2 from "../assets/image2.jpg";
 import { FaAirbnb, FaBook, FaStar } from "react-icons/fa";
-import TestimonySlider from "components/TestimonySlider";
-import RoomsSlider from "components/RoomsSlider";
 import { Link } from "react-router-dom";
-import TourismSlider from "components/TourismSlider";
+import React, { Suspense } from 'react';
 
 const Home = () => {
 	const { t } = useTranslation();
+	const TestimonySlider = React.lazy(() => import("components/TestimonySlider"));
+	const RoomsSlider = React.lazy(() => import("components/RoomsSlider"));
+	const TourismSlider = React.lazy(() => import("components/TourismSlider"));
     
 	return (
 		<section className='Home'>
@@ -106,7 +107,9 @@ const Home = () => {
 				<div className="testimonies">
 					<Row >
 						<Col md={12} className="d-flex align-items-center">
-							<TestimonySlider/>
+							<Suspense fallback={<div>Chargement...</div>}>
+								<TestimonySlider/>
+							</Suspense>
 						</Col>
 					</Row>
 				</div>
@@ -116,7 +119,9 @@ const Home = () => {
 					</h2>
 					<div className="d-inline-flex">
 						<div className="slider mx-0">
-							<RoomsSlider />
+							<Suspense fallback={<div>Chargement...</div>}>
+								<RoomsSlider />
+							</Suspense>
 						</div>
 						<div className="paragraph2 mx-0">
 							<p>
@@ -136,7 +141,9 @@ const Home = () => {
 					<h2 className="subtitle text-center">
 						{t("tourism")}
 					</h2>
-					<TourismSlider />
+					<Suspense fallback={<div>Chargement...</div>}>
+						<TourismSlider />
+					</Suspense>
 				</div>
 			</div>
 		</section>
