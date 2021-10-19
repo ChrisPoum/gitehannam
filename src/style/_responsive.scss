@@ -6,7 +6,7 @@
     }
 
     .logotext{
-        font-size: 40px!important;
+        font-size: 50px!important;
     }
 
     .subtitle{
@@ -41,7 +41,7 @@
         .notescontainer{
             display: flex!important;
             flex-direction: column!important;
-            justify-content: start!important;
+            justify-content: flex-start!important;
             padding: 0!important;
             margin: 0!important;
 
@@ -73,8 +73,93 @@
 
             .card-text{
                 width: 75vw!important;
-                font-size: 12px!important;
+                font-size: 15px!important;
             }
+        }
+
+        .rooms{
+
+            .roomcontainer{
+                display: flex!important;
+                flex-direction: column!important;
+            }
+
+            .slider{
+                width: 85vw!important;
+            }
+
+            .paragraph2{
+                padding-top: 2rem!important;
+                width: 85vw!important;
+                font-size: 18px!important;
+            }
+        }
+
+        .tourism{
+            display: flex!important;
+            flex-direction: column!important;
+            margin-top: 1rem!important;
+
+            .TourismSlider{
+                .row1{
+                    display: flex!important;
+                    flex-direction: column!important;
+                    justify-content: flex-start!important;
+                    padding: 0!important;
+                    margin: 0!important;
+                }
+
+                .row2{
+                    display: flex!important;
+                    flex-direction: column!important;
+                    justify-content: flex-start!important;
+                    padding: 0!important;
+                    margin: 0!important;
+                }
+
+                .row3{
+                    display: flex!important;
+                    flex-direction: column!important;
+                    justify-content: flex-start!important;
+                    padding: 0!important;
+                    margin: 0!important;
+                }
+    
+                .imagetopleft{
+                    margin: 0!important;
+                    height: 20vh!important;
+                    width: 80vw!important;
+    
+                    &:hover{
+                        transform: none!important;
+                    }
+                }
+
+                .imagetopright{
+                    margin: 0!important;
+                    height: 20vh!important;
+                    width: 80vw!important;
+    
+                    &:hover{
+                        transform: none!important;
+                    }
+                }
+
+                .imageleft{
+                    margin: 0!important;
+                    padding: 0!important;
+                    width: 80vw!important;
+    
+                    &:hover{
+                        transform: none!important;
+                    }
+                }
+    
+                .paragraph3{
+                    font-size: 18px!important;
+                }
+            }
+
         }
     }
 }
