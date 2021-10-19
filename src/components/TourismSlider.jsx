@@ -38,16 +38,16 @@ const TourismSlider = () => {
 					/>
 				</Col>
 				<Col xs={12} lg={8} mb={8} mb-lg={0} className="paragraph3">
-					<p>
+					<p className="responsiveparagraph3">
 						{t("paragraph3a")}
 					</p>
-					<p>
+					<p className="responsiveparagraph3">
 						{t("paragraph3b")}
 					</p>
-					<p>
+					<p className="responsiveparagraph3">
 						{t("paragraph3c")}
 					</p>
-					<Button className="custombutton3 btn-lg my-3">
+					<Button className="custombutton3 btn-lg my-3 responsivebutton">
 						<a className="customlink3" href="http://www.baiedemorlaix.bzh/fr/">
 							Découvrez en plus !
 						</a>

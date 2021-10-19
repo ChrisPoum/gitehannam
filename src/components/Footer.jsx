@@ -13,7 +13,7 @@ const Footer = () => {
 					Breton Breaks
 				</Row>
 				<Row className="m-auto d-flex align-items-center">
-					<Col md={4} className="text-center">
+					<Col xs={12} md={4} className="text-center columnfooter">
 						<p className="footertitle">
 							{t("quicklinks")}
 						</p>
@@ -27,21 +27,21 @@ const Footer = () => {
 							<Link className="footerlink" to="/contacts">Contacts</Link>
 						</p>
 					</Col>
-					<Col md={4} className="text-center middlecolfooter">
-						<p className="footertitle">
+					<Col xs= {12} md={4} className="text-center middlecolfooter columnfooter">
+						<p className="footertitle responsivetitle">
 							{t("booking")}
 						</p>
 						<p>
-							<a href="mailto:lamaisonblanche@gmail.com" className="footerlink">
+							<a href="mailto:lamaisonblanche@gmail.com" className="footerlink responsivemail">
 								{t("email")}
 							</a>
 						</p>
 						<p>
-							<a href="tel:0033789029200" className="footerphone">
+							<a href="tel:0033789029200" className="footerphone responsivephone">
 								+(33)0789029200
 							</a>
 						</p>
-						<p className="footertitle mt-3">
+						<p className="footertitle mt-3 responsivefooter">
 							{t("findus")}
 						</p>
 						<p>
@@ -65,7 +65,7 @@ const Footer = () => {
 							</a>
 						</p>
 					</Col>
-					<Col md={4} className="text-center">
+					<Col xs={12} md={4} className="text-center responsivehidden">
 						<p className="footertitle">
 							{t("socialnetwork")}
 						</p>
@@ -89,6 +89,31 @@ const Footer = () => {
 							<a href="https://www.youtube.com">
 								<FaYoutube 
 									className="iconsfooter"
+									size={30}
+								/>
+							</a>
+						</p>
+					</Col>
+					<Col xs={12} md={4} className="text-center responsivedisplayed">
+						<p className="footertitle">
+							{t("socialnetwork")}
+						</p>
+						<p>
+							<a href="https://www.facebook.com">
+								<FaFacebook
+									className="iconsfooter mx-2"
+									size={30} 
+								/>
+							</a>
+							<a href="https://www.instagram.com">
+								<FaInstagram
+									className="iconsfooter mx-2"
+									size={30}
+								/>
+							</a>
+							<a href="https://www.youtube.com">
+								<FaYoutube 
+									className="iconsfooter mx-2"
 									size={30}
 								/>
 							</a>

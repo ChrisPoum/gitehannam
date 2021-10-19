@@ -106,26 +106,31 @@
   font-size: xx-large;
 
   .firstrow{
-	max-width: 100vw;
-	height: 240px;
-	padding-right: 2rem;
+		max-width: 100vw;
+		height: 240px;
+		padding-right: 2rem;
   }
 
   .secondrow{
-	max-width: 100vw;
-	height: 240px;
-	padding-left: 2rem;
+		max-width: 100vw;
+		height: 240px;
+		padding-left: 2rem;
   }
 
-  .iconsjumbo{
-	color: #423A36;
-	
-	&:hover{
-		color: #CF9D6C;
-		scale: 1.1;
-		transition: 0.3s;
+  .jumboline{
+		font-size: 22px;
+		color: black;
 	}
-}
+
+  .iconsjumbo{
+		color: black;
+	
+		&:hover{
+			color: #CF9D6C;
+			scale: 1.1;
+			transition: 0.3s;
+		}
+	}
 }
 
 //home page mainbody and subclasses
@@ -227,7 +232,6 @@
 			width: 50vw;
 
 			.RoomsSlider{
-
 				.thumbs-wrapper{
 					display:none;
 				}
@@ -275,7 +279,6 @@
 			text-decoration: none!important;
 			color: white!important;
 		}
-
 	}
 	
 	.tourism{
@@ -593,6 +596,10 @@
 			font-size: 28px;
 			transition: 0.5s;
 		}
+	}
+
+	.responsivedisplayed{
+		display: none;
 	}
 }
 

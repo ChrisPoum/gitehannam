@@ -49,9 +49,9 @@ const Booking = () => {
 					<p>
 						{t("explainbooking")}
 					</p>
-					<Row xs={1} md={2} className="d-flex justify-content-center">
+					<Row xs={12} md={12} className="d-flex justify-content-center">
 						{ cardtexts.map(cardtext => (
-							<Col md={4} key={ cardtext.id } className="d-flex justify-content-center">
+							<Col xs={12} md={4} key={ cardtext.id } className="d-flex justify-content-center">
 								<Card className="cardbooking">
 									<Card.Img 
 										variant="top" 

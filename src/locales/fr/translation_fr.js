@@ -37,7 +37,7 @@ export const TRANSLATIONS_FR = {
     profiletitle:"Françoise et Chistopher Hannam",
     language:"Langues",
     engfr:"anglais et français",
-    superhost:"Nous sommes pour vous accueillir.",
+    superhost:"Nous sommes là pour vous accueillir.",
 
     //Contacts
     addresstag:"Adresse",
