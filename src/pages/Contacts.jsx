@@ -26,7 +26,7 @@ const Contacts = () => {
 			<h2 className="text-center mb-3 subtitle">Contacts</h2>
 			<Row className="d-flex justify-content center">
 				<Col
-					className="d-flex justify-content-end" 
+					className="d-flex justify-content-end responsiveprofile" 
 					md={5}
 				>
 					<img 
@@ -39,10 +39,10 @@ const Contacts = () => {
 					<p className="profiletitle">
 						{t("profiletitle")}
 					</p>
-					<p> 
+					<p className="responsivetext"> 
 						{t("language")} : {t("engfr")} 
 					</p>
-					<p>
+					<p className="responsivetext">
 						{t("superhost")}
 					</p>
 				</Col>
@@ -51,14 +51,16 @@ const Contacts = () => {
 				className="d-flex justify-content-center mt-4"
 			>
 				<Col 
-					className="d-flex justify-content-end" 
+					className="d-flex justify-content-end responsivetag" 
 					md={5}
+					s={12}
 				>
 					{t("addresstag")} :
 				</Col>
 				<Col 
-					className=""
+					className="responsivetext"
 					md={7}
+					s={12}
 				>
 					<a 
 						href="https://www.google.fr/maps/place/15+All.+des+Violettes,+29600+Saint-Martin-des-Champs/@48.5818244,-3.8717121,13z/data=!4m5!3m4!1s0x481160d41bb5eae5:0x965f530bb35122fc!8m2!3d48.5794928!4d-3.8422722"
@@ -72,14 +74,16 @@ const Contacts = () => {
 				className="d-flex justify-content-center"
 			>
 				<Col 
-					className="d-flex justify-content-end" 
+					className="d-flex justify-content-end responsivetag" 
 					md={5}
+					s={12}
 				>
 					{t("emailtag")} :
 				</Col>
 				<Col 
-					className=""
+					className="responsivetext"
 					md={7}
+					s={12}
 				>
 					<a href="mailto:lamaisonblanche@gmail.com" className="links">
 						{t("email")}
@@ -87,17 +91,19 @@ const Contacts = () => {
 				</Col>
 			</Row>
 			<Row 
-				className="d-flex justify-content-center"
+				className="d-flex justify-content-center responsiveend"
 			>
 				<Col 
-					className="d-flex justify-content-end" 
+					className="d-flex justify-content-end responsivetag" 
 					md={5}
+					s={12}
 				>
 					{t("phonetag")} :
 				</Col>
 				<Col 
-					className=""
+					className="responsivetext"
 					md={7}
+					s={12}
 				>
 					<a href="tel:0033789029200" className="links">
 						+(33)0789029200

@@ -1,80 +1,283 @@
 //mobile phone screen rules
 
 @media screen and (max-width: 480px) {
-    .App{
-        max-width: 100vw!important;
-    }
+	.App{
+		max-width: 100vw!important;
+	}
 
-    .logotext{
-        font-size: 40px!important;
-    }
+	.logotext{
+		font-size: 45px!important;
+	}
 
-    .subtitle{
-        font-size: 30px!important;
-    }
+	.subtitle{
+		font-size: 40px!important;
+		margin-top: 1rem!important;
+		margin-bottom: 1rem!important;
+	}
 
-    .Header{
-        .headercontent{
-            display: none!important;
-        }
+	//header and displayjumbotron
+	.Header{
+		.headercontent{
+			display: none!important;
+		}
+	}
 
-        #buttonlanguage{
-            display: flex!important;
-            justify-content: right!important;
-            margin-bottom: 1rem;
-        }
-    }
-    .DisplayJumbotron{
-        max-height: 300px!important;
-    }
+	.DisplayJumbotron{
+		max-height: 300px!important;
 
-    .mainbody{
-        margin-left: 1rem;
-        margin-right: 1rem;
+		.jumbolinetext{
+			display: none;
+		}
+	}
 
-        .paragraph1{
-            font-size: 18px!important;
-            padding-left: 1rem!important;
-            padding-right: 1rem!important;
-        }
+	//home page
+	.mainbody{
+		margin-left: 1rem;
+		margin-right: 1rem;
 
-        .notescontainer{
-            display: flex!important;
-            flex-direction: column!important;
-            justify-content: start!important;
-            padding: 0!important;
-            margin: 0!important;
+		.paragraph1{
+			font-size: 18px!important;
+			padding-left: 1rem!important;
+			padding-right: 1rem!important;
+		}
 
-            .image2{
-                
-                &:hover{
-                    transform: none;
-                }
-            }
+		.notescontainer{
+			display: flex!important;
+			flex-direction: column!important;
+			justify-content: flex-start!important;
+			padding: 0!important;
+			margin: 0!important;
 
-            .notes{
-                width: 340px!important;
-            }
-        }
+			.image2{	
+				&:hover{
+					transform: none;
+				}
+			}
 
-        .testimonies{
-            .carousel-indicator.carousel-control-prev.sr-only.carousel-control-next{
-                display: none!important;
-            }
+			.notes{
+				width: 340px!important;
+			}
+		}
 
-            .carousel-inner{
-                margin-left: 0!important;
-            }
+		.testimonies{
+			.carousel-indicator.carousel-control-prev.sr-only.carousel-control-next{
+				display: none!important;
+			}
 
-            .card{ 
-                width: 75vw!important;
-                min-height: 25vh!important;
-            }
+			.carousel-inner{
+				margin-left: 0!important;
+			}
 
-            .card-text{
-                width: 75vw!important;
-                font-size: 12px!important;
-            }
-        }
-    }
+			.card{ 
+				width: 75vw!important;
+				min-height: 25vh!important;
+			}
+
+			.card-text{
+				width: 75vw!important;
+				font-size: 15px!important;
+			}
+		}
+
+		.rooms{
+			.roomcontainer{
+				display: flex!important;
+				flex-direction: column!important;
+			}
+
+			.slider{
+				width: 85vw!important;
+			}
+
+			.paragraph2{
+				padding-top: 2rem!important;
+				width: 85vw!important;
+				font-size: 18px!important;
+			}
+		}
+
+		.tourism{
+			display: flex!important;
+			flex-direction: column!important;
+			margin-top: 1rem!important;
+
+			.TourismSlider{
+				margin-top: 0!important;
+
+				.row1{
+					display: flex!important;
+					flex-direction: column!important;
+					justify-content: flex-start!important;
+					padding: 0!important;
+					margin: 0!important;
+				}
+
+				.row2{
+					display: flex!important;
+					flex-direction: column!important;
+					justify-content: flex-start!important;
+					padding: 0!important;
+					margin: 0!important;
+				}
+
+				.row3{
+					display: flex!important;
+					flex-direction: column!important;
+					justify-content: flex-start!important;
+					padding: 0!important;
+					margin: 0!important;
+				}
+
+				.imagetopleft{
+					margin: 0!important;
+					height: 20vh!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+
+				.imagetopright{
+					margin: 0!important;
+					height: 20vh!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+
+				.imageleft{
+					margin: 0!important;
+					padding: 0!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+
+				.paragraph3{
+					font-size: 18px!important;
+					margin: 0 0 0 0.75rem!important;
+					padding: 1rem 0.5rem 0.5rem 0.5rem!important;
+					width: 80vw!important;
+				}
+
+				.responsiveparagraph3{
+					text-align: justify!important;
+				}
+
+				.responsivebutton{
+					text-align: center!important;
+				}
+
+				.imagebottomleft{
+					margin: 0!important;
+					padding: 0!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+
+				.imagebottomcenter{
+					margin: 0!important;
+					padding: 0!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+
+				.imagebottomright{
+					margin: 0!important;
+					padding: 0!important;
+					width: 80vw!important;
+
+					&:hover{
+						transform: none!important;
+					}
+				}
+			}
+		}
+	}
+
+	//booking page
+	.Booking{
+		.cardbooking{
+			margin-left: 1.5rem;
+		}
+		.calendar{
+			width: 90vw!important;
+			height: 45vh!important;
+		}
+	}
+
+	//contacts page
+	.Contacts{
+		.responsiveprofile{
+			margin-left: 0.5rem;
+			justify-content: center!important;
+		}
+
+		.profiletitle{
+			text-align: center;
+		}
+
+		.responsivetext{
+			text-align: center;
+		}
+
+		.responsivetag{
+			margin-left: 1rem;
+			justify-content: flex-start!important;
+		}
+
+		.responsiveend{
+			margin-bottom: 3rem;
+		}
+	}
+
+
+	//footer
+	.Footer{
+		font-size: 15px;
+
+		.middlecolfooter{
+			border-left: none!important;
+			border-right: none!important;
+		}
+
+		.columnfooter{
+			margin-bottom: 2rem!important;
+		}
+
+		.responsivefooter{
+			margin-top: 3rem!important;
+		}
+
+		.responsivehidden{
+			display: none!important;
+		}
+
+		.responsivedisplayed{
+			display: initial!important;
+		}
+
+		.responsivetitle{
+			font-size: 45px!important;
+		}
+
+		.responsivemail{
+			font-size: 28px!important;
+		}
+
+		.responsivephone{
+			font-size: 30px!important;
+		}
+	}
 }

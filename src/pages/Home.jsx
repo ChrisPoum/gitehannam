@@ -33,7 +33,7 @@ const Home = () => {
 											script-src 'self' 'unsafe-inline'; 
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
-											img-src *; 
+											img-src * data: https:; 
 											frame-src *; 
 											base-uri 'self';" 
 				/>	
@@ -117,7 +117,7 @@ const Home = () => {
 					<h2 className="subtitle mb-4">
 						{t("rooms")}
 					</h2>
-					<div className="d-inline-flex">
+					<div className="d-inline-flex roomcontainer">
 						<div className="slider mx-0">
 							<Suspense fallback={<div>Chargement...</div>}>
 								<RoomsSlider />
