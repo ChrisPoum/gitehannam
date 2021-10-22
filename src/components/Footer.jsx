@@ -13,7 +13,7 @@ const Footer = () => {
 					Breton Breaks
 				</Row>
 				<Row className="m-auto d-flex align-items-center">
-					<Col xs={12} md={4} className="text-center columnfooter">
+					<Col xs={12} md={4} className="text-center columnfooter responsivehidden">
 						<p className="footertitle">
 							{t("quicklinks")}
 						</p>
@@ -25,6 +25,16 @@ const Footer = () => {
 						</p>
 						<p>
 							<Link className="footerlink" to="/contacts">Contacts</Link>
+						</p>
+					</Col>
+					<Col xs={12} md={4} className="text-center columnfooter responsivedisplayed">
+						<p className="footertitle">
+							{t("quicklinks")}
+						</p>
+						<p>
+							<Link className="footerlink mx-3" to="/">{t("home")}</Link>
+							<Link className="footerlink mx-3" to="/booking">{t("booking")}</Link>
+							<Link className="footerlink mx-3" to="/contacts">Contacts</Link>
 						</p>
 					</Col>
 					<Col xs= {12} md={4} className="text-center middlecolfooter columnfooter">

@@ -6,7 +6,15 @@
 	}
 
 	.logotext{
-		font-size: 45px!important;
+		font-size: 36px!important;
+	}
+
+	.buttoncustom{
+		font-size: 14px!important;
+	}
+
+	.logotext{
+		text-align: center;
 	}
 
 	.subtitle{
@@ -44,23 +52,37 @@
 		.notescontainer{
 			display: flex!important;
 			flex-direction: column!important;
-			justify-content: flex-start!important;
+			justify-content: center!important;
 			padding: 0!important;
 			margin: 0!important;
 
 			.image2{	
+				width: 300px;
+
 				&:hover{
 					transform: none;
 				}
 			}
 
 			.notes{
-				width: 340px!important;
+				width: 300px!important;
 			}
 		}
 
 		.testimonies{
-			.carousel-indicator.carousel-control-prev.sr-only.carousel-control-next{
+			.carousel-indicator{
+				display: none!important;
+			}
+
+			.carousel-control-prev{
+				display: none!important;
+			}
+
+			.sr-only{
+				display: none!important;
+			}
+			
+			.carousel-control-next{
 				display: none!important;
 			}
 
@@ -269,15 +291,15 @@
 		}
 
 		.responsivetitle{
-			font-size: 45px!important;
+			font-size: 40px!important;
 		}
 
 		.responsivemail{
-			font-size: 28px!important;
+			font-size: 22px!important;
 		}
 
 		.responsivephone{
-			font-size: 30px!important;
+			font-size: 22px!important;
 		}
 	}
 }
