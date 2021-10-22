@@ -1,0 +1,65 @@
+//middle size screen rules
+
+@media screen and (min-width: 481px) and (max-width: 766px){
+    .App{
+		max-width: 100vw!important;
+	}
+
+    //header and displayjumbotron
+	.Header{
+		.headercontent{
+			display: none!important;
+		}
+	}
+
+	.DisplayJumbotron{
+		max-height: 300px!important;
+
+		.jumbolinetext{
+			display: none;
+		}
+	}
+
+    //home page
+	.mainbody{
+        .notescontainer{
+            display: flex!important;
+            flex-direction: row!important;
+            justify-content: center!important;
+
+            .image2{	
+                width: 300px;
+
+                &:hover{
+                    transform: none;
+                }
+            }
+
+            .notes{
+                width: 300px!important;
+            }
+        }
+
+        .testimonies{
+			.carousel-indicator{
+				display: none!important;
+			}
+
+			.carousel-control-prev{
+				display: none!important;
+			}
+
+			.sr-only{
+				display: none!important;
+			}
+			
+			.carousel-control-next{
+				display: none!important;
+			}
+
+			.carousel-inner{
+				margin-left: 2rem!important;
+			}
+        }
+    }
+}

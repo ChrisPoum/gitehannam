@@ -53,7 +53,7 @@ const Header = ({setLanguage, language}) => {
 							</Col>
 						</Row>
 					</Col>
-					<Col xs={8} md={4} className="text-center logotext"> Breton Breaks </Col>
+					<Col xs={7} md={4} className="text-center logotext"> Breton Breaks </Col>
 					<Col md={2} className="text-center headercontent"> 
 						<Row >
 							<Col md={2}>
@@ -69,7 +69,7 @@ const Header = ({setLanguage, language}) => {
 							</Col>
 						</Row>
 					</Col>
-					<Col xs={4} md={2} className="text-center">
+					<Col xs={5} md={2} className="text-center">
 						<div id="buttonlanguage">
 						{(
 							language === "fr" && (
