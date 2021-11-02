@@ -1,14 +1,14 @@
 //middle size screen rules
 
-@media screen and (min-width: 481px) and (max-width: 766px){
-    .App{
-		max-width: 100vw!important;
-	}
-
+@media screen and (min-width: 481px) and (max-width: 572px){
     //header and displayjumbotron
 	.Header{
 		.headercontent{
 			display: none!important;
+		}
+
+		.logotext{
+			font-size: 40px!important;
 		}
 	}
 

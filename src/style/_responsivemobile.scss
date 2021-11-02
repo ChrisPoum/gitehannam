@@ -1,12 +1,17 @@
 //mobile phone screen rules
 
-@media screen and (max-width: 480px) {
+@media screen 
+	and (min-device-width: 375px)
+	and (max-device-width: 750px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	{
+
 	.App{
 		max-width: 100vw!important;
 	}
 
 	.logotext{
-		font-size: 36px!important;
+		font-size: 32px!important;
 	}
 
 	.buttoncustom{
@@ -81,7 +86,7 @@
 			.sr-only{
 				display: none!important;
 			}
-			
+
 			.carousel-control-next{
 				display: none!important;
 			}
