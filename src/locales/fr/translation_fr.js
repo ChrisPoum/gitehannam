@@ -1,6 +1,8 @@
 export const TRANSLATIONS_FR = {
     //header & footer
     address1: "15 allée des violettes 29600 Saint-Martin-Des-Champs", 
+    address2a :"15 allée des violettes",
+    address2b :"29600 Saint-Martin-Des-Champs",
     email: "lamaisonblanche@gmail.com",
     quicklinks: "Liens",
     socialnetwork:"Suivez Nous",
@@ -19,6 +21,7 @@ export const TRANSLATIONS_FR = {
     paragraph3a:"La ville historique de Morlaix est située au fond d’une très belle baie où de superbes sites peuvent être visité comme l’imposant Château du Taureau,", 
     paragraph3b: "la ville touristique de Carantec avec ses nombreuses plages comme notre propre « tahiti beach » près de Penn an Lann.",
     paragraph3c: "Qu’importe votre direction, ouest, est or sud, vous trouverez d’autres sites tout aussi attrayants comme la presqu’île de Crozon, Ploumannach, ou même les dramatiques Monts d’Arré, très populaire par ses treaks à vélo et ses randonnées.",
+    tourismlink: "Découvrez en plus !",
 
     //Booking
     booking:"Réservez",

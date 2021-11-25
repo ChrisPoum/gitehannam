@@ -1,6 +1,8 @@
 export const TRANSLATIONS_EN = {
     //header & footer
     address1: "15 allée des violettes 29600 Saint-Martin-Des-Champs",
+    address2a :"15 allée des violettes",
+    address2b :"29600 Saint-Martin-Des-Champs",
     email: "lamaisonblanche@gmail.com",
     quicklinks: "Quick Links",
     socialnetwork:"Follow Us",
@@ -19,6 +21,7 @@ export const TRANSLATIONS_EN = {
     paragraph3a:"The town of Morlaix is situated at the end of a beautiful bay where many idyllic sites can be visited like the imposing Chateau du Taureau, ",
     paragraph3b:"the resort of Carantec and its beautiful beaches including our own « tahiti beach »  near Penn an Lann.",
     paragraph3c:"Wheather you choose to go west, east or south, you will find more attracive sites such as the presqu’île of Crozon, Ploumannach, or even the dramatic Mont d’Arré, very popular for hiking and bike treaks.",
+    tourismlink: "Find out more !",
 
     //Booking
     booking:"Book Now",

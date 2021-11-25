@@ -18,6 +18,12 @@
 	color: #CF9D6C;
 }
 
+.subtitlecustom{
+	font-family: "Source Sans Pro";
+	font-size: 35px;
+	color: #CF9D6C;
+}
+
 .Header{
 	.overnavigation{
 		font-size: 14px;
@@ -642,3 +648,16 @@
 	margin-top:-50px;
 }
 
+//mentions légales
+
+.MentionsLegales{
+	.mentionlink{
+		text-decoration: none;
+		color: #CF9D6C;
+		
+		&:hover{
+			color: #c8c0b8;
+			transition: 0.5s;
+		}
+	}
+}
