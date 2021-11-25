@@ -1,4 +1,5 @@
 @import "./responsivemobile";
+@import "./responsivebigsizescreen";
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
@@ -126,11 +127,11 @@
 
   .jumboline{
 		font-size: 22px;
-		color: black;
+		color: white;
 	}
 
   .iconsjumbo{
-		color: black;
+		color: white;
 	
 		&:hover{
 			color: #CF9D6C;
@@ -143,7 +144,7 @@
 //home page mainbody and subclasses
 
 .mainbody{
-	margin-left: 2rem;
+	margin-left: 2.5rem;
 	margin-right: 2rem;
 
 	.logotext{
@@ -314,8 +315,8 @@
 		}
 
 		.imagetopleft{
-			width: 25vw;
-			margin-bottom: -12rem;
+			width: 28vw;
+			margin-bottom: -13rem;
 			margin-left: -2rem;
 			position: relative;
 			z-index: 1;
@@ -328,9 +329,9 @@
 		}
 
 		.imagetopright{
-			width: 25vw;
+			width: 28vw;
 			margin-bottom: -5rem;
-			margin-left: -8rem;
+			margin-left: -7rem;
 			position: relative;
 			z-index: 2;
 			border-radius: 5px;

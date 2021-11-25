@@ -124,7 +124,7 @@ const Home = () => {
 							</Suspense>
 						</div>
 						<div className="paragraph2 mx-0">
-							<p>
+							<p className="insideparagraph2">
 								{t("paragraph2")}
 							</p>
 							<p className="text-center">

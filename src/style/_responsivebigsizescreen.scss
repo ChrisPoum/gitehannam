@@ -1,0 +1,171 @@
+//middle size screen rules
+
+@media screen 
+	and (min-device-width: 1380px)
+	{
+    //header and displayjumbotron
+    .logotext{
+        font-size: 5rem!important;
+    }
+    .links{
+        font-size: 1.5rem!important;
+    }
+    .phonelink{
+        font-size: 1.5rem!important;
+    }
+    .buttoncustom{
+        font-size: 1.5rem!important;
+    }
+    .navbarlink{
+        font-size: 2rem!important;
+    }
+
+	.DisplayJumbotron{
+        min-height: 40vh!important;
+
+        .firstrow{
+            min-height: 22.5vh!important;
+        }
+        .seconndrow{
+            min-height: 22.5vh!important;
+        }
+        .jumbolinetext{
+            font-size: 2rem!important;
+        }
+        .iconsjumbo{
+            scale: 1.5!important;
+            margin-left: 1rem!important;
+        }
+    }
+
+    //home page
+	.mainbody{
+        .notescontainer{
+            display: flex!important;
+            flex-direction: row!important;
+            justify-content: center!important;
+
+            .image2{	
+                width: 25vw!important;
+                height: 20vh!important;
+
+                &:hover{
+                    transform: none;
+                }
+            }
+
+            .notes{
+                width: 25vw!important;
+                height: 20vh!important;
+            }
+
+            .iconsnotes{
+                font-size: 2rem!important;
+            }
+            .stylenotes{
+                font-size: 2rem!important;
+            }
+        }
+
+        .paragraph1{
+            font-size: 2rem!important;
+        }
+
+        .paragraph2{
+            font-size: 2rem!important;
+            .insideparagraph2{
+                margin-top: 2rem!important;
+            }
+        }
+
+        .paragraph3{
+            font-size: 2rem!important;
+        } 
+
+        .customlink2{
+            font-size: 2rem!important;
+        }
+
+        .customlink3{
+            font-size: 2rem!important;
+        }
+
+        .testimonies{
+			.carousel-indicator{
+				display: none!important;
+			}
+
+			.carousel-control-prev{
+				display: none!important;
+			}
+
+			.sr-only{
+				display: none!important;
+			}
+			
+			.carousel-control-next{
+				display: none!important;
+			}
+
+			.carousel-inner{
+				margin-left: 20vw!important;
+			}
+
+            .card{
+                width: 50vw!important;
+                min-height: 20vh!important;
+            }
+
+            .card-title{
+                font-size: 2rem!important;
+                .dates{
+                    font-size: 2rem!important;
+                }
+            }
+
+            .card-text{
+                font-size: 2rem!important;
+            }
+
+            .text-muted{
+                font-size: 2rem!important;
+            }
+        }
+    }
+    //Contacts
+    .Contacts{
+        .subtitle{
+            font-size: 3rem!important; 
+        }
+        p{
+            font-size: 2rem!important;
+        }
+        a{
+            font-size: 2rem!important;
+        }
+        div{
+            font-size: 2rem!important;
+        }
+    }
+
+    //footer
+    .Footer{
+        .footerlogo{
+            font-size: 5rem!important;
+        }
+
+        .footertitle{
+            font-size: 3rem!important;
+        }
+        .footerlink{
+            font-size: 2rem!important;
+        }
+        .footerphone{
+            font-size: 2rem!important;
+        }
+        .iconsfooter{
+            padding-left: 0.5rem!important;
+            scale: 1.5!important;
+        }
+    }
+}
