@@ -74,6 +74,8 @@
 		}
 
 		.testimonies{
+			margin-left: -0.5rem!important;
+
 			.carousel-indicator{
 				display: none!important;
 			}
@@ -91,16 +93,16 @@
 			}
 
 			.carousel-inner{
-				margin-left: 1rem!important;
+				margin-left: 0!important;
 			}
 
 			.card{ 
-				width: 80vw!important;
+				width: 78vw!important;
 				min-height: 25vh!important;
 			}
 
 			.card-text{
-				width: 80vw!important;
+				width: 78vw!important;
 				font-size: 15px!important;
 			}
 		}
