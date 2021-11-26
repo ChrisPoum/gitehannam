@@ -1,0 +1,172 @@
+// tablet screen rules
+
+@media screen
+    and (min-device-width: 751px)
+    and (max-device-width: 1200px)
+{
+    
+    //header
+
+    .Header .links{
+        display: none;
+    }
+
+    .logotext{
+        font-size: 3rem!important;
+    }
+
+    .phonelink{
+        display: none;
+    }
+
+    .icons{
+        margin-top: 0rem!important;
+        margin-left: 2rem!important;
+    }
+
+    .jumbolinetext{
+        display: none;
+    }
+
+    //home page
+
+    .notescontainer{
+        display: flex!important;
+        flex-direction: column;
+    }
+
+    .notes{
+        width: 42vw!important;
+        height: 20vh!important;
+    }
+
+    .carousel-inner{
+        margin-left: 3rem!important;
+    }
+
+    .card{
+        min-height: 20vh!important;
+    }
+
+    .roomcontainer{
+        display: flex!important;
+        flex-direction: column;
+        margin-left: 0.5rem!important;
+    }
+
+    .slider{
+        width: 90vw!important;
+    }
+
+    .paragraph2{
+        width: 90vw!important;
+    }
+
+    .tourism{
+        display: flex!important;
+		flex-direction: column!important;
+
+        .TourismSlider{
+            margin-top: 0!important;
+
+            .row1{
+                display: flex!important;
+                flex-direction: column!important;
+                justify-content: flex-start!important;
+                padding: 0!important;
+                margin: 0!important;
+            }
+
+            .row2{
+                display: flex!important;
+                flex-direction: column!important;
+                justify-content: flex-start!important;
+                padding: 0!important;
+                margin: 0!important;
+            }
+
+            .row3{
+                display: flex!important;
+                flex-direction: column!important;
+                justify-content: flex-start!important;
+                padding: 0!important;
+                margin: 0!important;
+            }
+
+            .imagetopleft{
+                margin: 0!important;
+                height: 40vh!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+
+            .imagetopright{
+                margin: 0!important;
+                height: 40vh!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+
+            .imageleft{
+                margin: 0!important;
+                padding: 0!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+
+            .paragraph3{
+                font-size: 1rem!important;
+                margin: 0 0 0 0.75rem!important;
+                padding: 1rem 0.5rem 0.5rem 0.5rem!important;
+                width: 90vw!important;
+            }
+
+            .responsiveparagraph3{
+                text-align: justify!important;
+            }
+
+            .responsivebutton{
+                text-align: center!important;
+            }
+
+            .imagebottomleft{
+                margin: 0!important;
+                padding: 0!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+
+            .imagebottomcenter{
+                margin: 0!important;
+                padding: 0!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+
+            .imagebottomright{
+                margin: 0!important;
+                padding: 0!important;
+                width: 90vw!important;
+
+                &:hover{
+                    transform: none!important;
+                }
+            }
+        }
+    }
+}
