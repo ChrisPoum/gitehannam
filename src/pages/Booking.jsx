@@ -30,7 +30,7 @@ const Booking = () => {
 				<meta charset="utf-8" />
 				<link rel="icon" href="./triskelesmall.png" />
 				<link rel="apple-touch-icon" href="./triskelesmall.png" />
-				<link rel="manifest" href="./manifest.json" />
+				<link rel="manifest" href="/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
 				<meta
