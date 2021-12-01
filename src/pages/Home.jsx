@@ -18,7 +18,7 @@ const Home = () => {
 				<meta charset="utf-8" />
 				<link rel="icon" href="./triskelesmall.png" />
 				<link rel="apple-touch-icon" href="./triskelesmall.png" />
-				<link rel="manifest" href="./manifest.json" />
+				<link rel="manifest" href="/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
 				<meta
@@ -29,7 +29,7 @@ const Home = () => {
 				/>
 				<title>Breton Breaks</title>
 				<meta http-equiv="Content-Security-Policy" 
-							content="default-src 'none'; 
+							content="default-src 'self'; 
 											script-src 'self' 'unsafe-inline'; 
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
