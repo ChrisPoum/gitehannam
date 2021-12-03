@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Row, Col, Button, Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import image2 from "../assets/image2.jpg";
+import image2 from "../assets/image2.webp";
 import { FaAirbnb, FaBook, FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import React, { Suspense } from 'react';

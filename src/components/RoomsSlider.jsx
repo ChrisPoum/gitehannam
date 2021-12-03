@@ -1,16 +1,17 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import room1 from "../assets/housepictures/room1.jpg";
-import room2 from "../assets/housepictures/room2.jpg";
-import room3 from "../assets/housepictures/room3.jpg";
-import room4 from "../assets/housepictures/room4.jpg";
-import room5 from "../assets/housepictures/room5.jpg";
-import living from "../assets/housepictures/living.jpg";
-import house from "../assets/housepictures/house.jpg";
-import bathroom from "../assets/housepictures/bathroom.jpg";
-import kitchen from "../assets/housepictures/kitchen.jpg";
-import garden1 from "../assets/housepictures/garden1.jpg";
-import garden2 from "../assets/housepictures/garden2.jpg";
+import room1 from "../assets/housepictures/room1.webp";
+import room2 from "../assets/housepictures/room2.webp";
+import room3 from "../assets/housepictures/room3.webp";
+import room4 from "../assets/housepictures/room4.webp";
+import room5 from "../assets/housepictures/room5.webp";
+import living from "../assets/housepictures/living.webp";
+import house from "../assets/housepictures/house.webp";
+import bathroom1 from "../assets/housepictures/bathroom1.webp";
+import kitchen from "../assets/housepictures/kitchen.webp";
+import garden1 from "../assets/housepictures/garden1.webp";
+import garden2 from "../assets/housepictures/garden2.webp";
+import bathroom2 from "../assets/housepictures/bathroom2.webp";
 
 const RoomsSlider = () => {
     
@@ -48,7 +49,10 @@ const RoomsSlider = () => {
 					<img className="sliderimage" src={room5} alt="cinquième chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={bathroom} alt="salle de bain"/>
+					<img className="sliderimage" src={bathroom1} alt="salle de bain"/>
+				</div>
+				<div>
+					<img className="sliderimage" src={bathroom2} alt="deuxième salle de bain"/>
 				</div>
 			</Carousel>
 		</div>
