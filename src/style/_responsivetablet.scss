@@ -74,48 +74,12 @@
         .TourismSlider{
             margin-top: 0!important;
 
-            .row1{
-                display: flex!important;
-                flex-direction: column!important;
-                justify-content: flex-start!important;
-                padding: 0!important;
-                margin: 0!important;
-            }
-
             .row2{
                 display: flex!important;
                 flex-direction: column!important;
-                justify-content: flex-start!important;
+                justify-content: center!important;
                 padding: 0!important;
                 margin: 0!important;
-            }
-
-            .row3{
-                display: flex!important;
-                flex-direction: column!important;
-                justify-content: flex-start!important;
-                padding: 0!important;
-                margin: 0!important;
-            }
-
-            .imagetopleft{
-                margin: 0!important;
-                height: 40vh!important;
-                width: 90vw!important;
-
-                &:hover{
-                    transform: none!important;
-                }
-            }
-
-            .imagetopright{
-                margin: 0!important;
-                height: 40vh!important;
-                width: 90vw!important;
-
-                &:hover{
-                    transform: none!important;
-                }
             }
 
             .imageleft{
@@ -130,46 +94,16 @@
 
             .paragraph3{
                 margin: 0 0 0 0.75rem!important;
-                padding: 3rem 0.5rem 0.5rem 0.5rem!important;
                 width: 90vw!important;
             }
 
             .responsiveparagraph3{
                 text-align: justify!important;
+                padding: 0.5rem!important;
             }
 
             .responsivebutton{
                 text-align: center!important;
-            }
-
-            .imagebottomleft{
-                margin: 0!important;
-                padding: 0!important;
-                width: 90vw!important;
-
-                &:hover{
-                    transform: none!important;
-                }
-            }
-
-            .imagebottomcenter{
-                margin: 0!important;
-                padding: 0!important;
-                width: 90vw!important;
-
-                &:hover{
-                    transform: none!important;
-                }
-            }
-
-            .imagebottomright{
-                margin: 0!important;
-                padding: 0!important;
-                width: 90vw!important;
-
-                &:hover{
-                    transform: none!important;
-                }
             }
         }
     }

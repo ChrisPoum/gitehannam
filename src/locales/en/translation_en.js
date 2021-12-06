@@ -24,8 +24,8 @@ export const TRANSLATIONS_EN = {
     tourismlink: "Find out more !",
 
     //Booking
-    booking:"Book Now",
-    explainbooking:"Check availability before contacting us to book dates, or book online with our partners.",
+    booking:"Book",
+    explainbooking:"Contact us to book dates, or book online with our partners.",
     partners:"Our partners",
     contactus:"Contact Us",
     season1:"Peak Season",
