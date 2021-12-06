@@ -25,7 +25,7 @@ export const TRANSLATIONS_FR = {
 
     //Booking
     booking:"Réservez",
-    explainbooking:"Vérifier les disponibilités sur notre calendrier et contacter nous pour réserver, ou réserver avec nos partenaires.",
+    explainbooking:"Contacter nous pour réserver, ou réserver avec nos partenaires.",
     partners:"Nos partenaires",
     contactus:"Contactez nous",
     season1:"Haute Saison",
