@@ -1,7 +1,4 @@
-User-agent: Google
-Disallow:
-
 User-agent: *
-Disallow: /
+Disallow: 
 
 Sitemap: https://www.bretonbreaks.com/sitemap.xml
