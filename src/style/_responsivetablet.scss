@@ -70,6 +70,7 @@
     .tourism{
         display: flex!important;
 		flex-direction: column!important;
+       
 
         .TourismSlider{
             margin-top: 0!important;
@@ -78,13 +79,12 @@
                 display: flex!important;
                 flex-direction: column!important;
                 justify-content: center!important;
-                padding: 0!important;
                 margin: 0!important;
             }
 
             .imageleft{
-                margin: 0!important;
-                padding: 0!important;
+                margin-bottom: 0!important;
+                margin-left: 0.75rem!important;
                 width: 90vw!important;
 
                 &:hover{
