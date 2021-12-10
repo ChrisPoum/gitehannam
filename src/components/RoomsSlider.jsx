@@ -19,40 +19,40 @@ const RoomsSlider = () => {
 		<div className='RoomsSlider'>
 			<Carousel>
 				<div>
-					<img className="sliderimage" src={house} alt="exterieur de la maison"/>
+					<img width="654" height="491" className="sliderimage" src={house} alt="exterieur de la maison"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={garden1} alt="exterieur vers le jardin"/>
+					<img width="654" height="491" className="sliderimage" src={garden1} alt="exterieur vers le jardin"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={garden2} alt="dans le jardin"/>
+					<img width="654" height="491" className="sliderimage" src={garden2} alt="dans le jardin"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={living} alt="le salon de la maison"/>
+					<img width="654" height="491" className="sliderimage" src={living} alt="le salon de la maison"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={kitchen} alt="la cuisine"/>
+					<img width="654" height="491" className="sliderimage" src={kitchen} alt="la cuisine"/>
 				</div>
 				<div>
-					<img src={room1} alt="première chambre"/>
+					<img width="654" height="491" className="sliderimage" src={room1} alt="première chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={room2} alt="seconde chambre"/>
+					<img width="654" height="491" className="sliderimage" src={room2} alt="seconde chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={room3} alt="troisième chambre"/>
+					<img width="654" height="491" className="sliderimage" src={room3} alt="troisième chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={room4} alt="quatrième chambre"/>
+					<img width="654" height="491" className="sliderimage" src={room4} alt="quatrième chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={room5} alt="cinquième chambre"/>
+					<img width="654" height="491" className="sliderimage" src={room5} alt="cinquième chambre"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={bathroom1} alt="salle de bain"/>
+					<img width="654" height="491" className="sliderimage" src={bathroom1} alt="salle de bain"/>
 				</div>
 				<div>
-					<img className="sliderimage" src={bathroom2} alt="deuxième salle de bain"/>
+					<img width="654" height="491" className="sliderimage" src={bathroom2} alt="deuxième salle de bain"/>
 				</div>
 			</Carousel>
 		</div>

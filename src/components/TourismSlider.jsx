@@ -8,7 +8,7 @@ const TourismSlider = () => {
 	return (
 		<div className='TourismSlider'>
 			<Row className="row2 mx-0">
-				<Col xs={12} lg={4} md={4} mb={4} mb-lg={0}>
+				<Col className="imageleftwrapper" xs={12} lg={4} md={4} mb={4} mb-lg={0}>
 					<img
 						src={imageleft}
 						className="w-100 shadow-1-strong rounded mb-4 imageleft"
