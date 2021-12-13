@@ -36,9 +36,13 @@
 
 	.DisplayJumbotron{
 		max-height: 300px!important;
-
 	}
 	
+	.secondrow {
+		padding-left: 0.5rem!important;
+		padding-right: 0.5rem!important;
+	}
+
 	.jumbolinetext{
 		display: none;
 	}
@@ -155,6 +159,7 @@
 				}
 
 				.paragraph3{
+					height: auto;
 					font-size: 1rem!important;
 					width: 85vw!important;
 					padding-top: 4rem;
