@@ -19,15 +19,17 @@ const Home = () => {
 				<link rel="icon" href="./triskelesmall.png" />
 				<link rel="apple-touch-icon" href="./triskelesmall.png" />
 				<link rel="manifest" href="https://www.bretonbreaks.com/manifest.json" />
+				<meta name="robots" content="all" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
+				<title>Breton Breaks - la maison blanche - Saint Martin des Champs</title>
 				<meta
 					name="description"
-					content="Breton Breaks, grande maison avec 10 couchages pour des locations 
-					de les vacances dans la baie de Morlaix, 
-					15 allée des violettes 29600 Saint-Martin-Des-Champs."
+					content="Breton Breaks - la maison blanche (Morlaix, Finistère, Bretagne). Grande maison avec 10 couchages pour des locations de les vacances dans la baie de Morlaix, 15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
-				<title>Breton Breaks</title>
+				<meta property="og:title" content="Breton Breaks - la maison blanche" />
+				<meta property="og:description" content="Location de vacances - Breton Breaks - la maison blanche (Morlaix, Finistère, Bretagne). Grande maison avec 10 couchages pour des locations de les vacances dans la baie de Morlaix, 15 allée des violettes 29600 Saint-Martin-Des-Champs." /> 
+				<meta property="og:image" content="https://www.bretonbreaks.com/static/media/image2.bc4d1fb3.webp"/>
 				<meta http-equiv="Content-Security-Policy" 
 							content="default-src 'self'; 
 											script-src 'self' 'unsafe-inline'; 
@@ -40,7 +42,7 @@ const Home = () => {
 				/>	
 			</Helmet>
 			<div className="mainbody">
-				<h1 className="logotext">Breton Breaks</h1>
+				<h1 className="logotext">Breton Breaks - La Maison Blanche</h1>
 				<div className="description">
 					<Row className="m-auto d-flex align-items-center">
 						<Col sm={12} md={6}>

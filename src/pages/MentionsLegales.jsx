@@ -11,12 +11,12 @@ const MentionsLegales = () => {
 				<link rel="manifest" href="https://www.bretonbreaks.com/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
+				<title>Breton Breaks - La Maison Blanche - Mentions Légales</title>
 				<meta
 					name="description"
-					content=" mentions légales pour le site breton breaks, 
+					content="mentions légales pour le site breton breaks, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
-				<title>Breton Breaks - Mentions Légales</title>
 			</Helmet>
 			<div className="mx-4">
 				<h2 className="text-center mt-4 subtitle">
