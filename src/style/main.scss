@@ -38,15 +38,15 @@
 	}
 
 	.icons{
-		color: #CF9D6C;
+		color: #423A36;
 	}
 
 	.links{
 		text-decoration: none;
-		color: #CF9D6C;
+		color: #423A36;
 		
 		&:hover{
-			color: #423A36;
+			color: #CF9D6C;
 			transition: 0.5s;
 		}
 	}
@@ -55,10 +55,10 @@
 	.phonelink{
 		text-decoration: none;
 		font-size: 20px!important;
-		color: #CF9D6C;
+		color: #423A36;
 		
 		&:hover{
-			color: #423A36;
+			color: #CF9D6C;
 			font-size: 22px!important;
 			transition: 0.5s;
 		}
@@ -67,12 +67,12 @@
 	.buttoncustom{
 		text-decoration: none!important;
 		background-color: white!important;
-		border-color: #CF9D6C!important;
-		color: #CF9D6C!important;
+		border-color: #423A36!important;
+		color: #423A36!important;
 
 		&:hover{
 			background-color: #CF9D6C!important;
-			border-color: #CF9D6C!important;
+			border-color: #423A36!important;
 			color: white!important;
 			transition: 1s!important;
 		}
@@ -113,32 +113,26 @@
   max-width: 100vw;
   font-weight: bolder;
   font-size: xx-large;
+}
 
-  .firstrow{
-		max-width: 100vw;
-		height: 240px;
-		padding-right: 2rem;
-  }
+.secondrow{
+	padding-left: 2rem;
+	padding-top: 0.5rem;
+	background-color: #423A36!important;
+}
 
-  .secondrow{
-		max-width: 100vw;
-		height: 240px;
-		padding-left: 2rem;
-  }
+.jumboline{
+	font-size: 22px;
+	color: whitesmoke;
+}
 
-  .jumboline{
-		font-size: 22px;
-		color: white;
-	}
+.iconsjumbo{
+	color: whitesmoke;
 
-  .iconsjumbo{
-		color: white;
-	
-		&:hover{
-			color: #CF9D6C;
-			scale: 1.1;
-			transition: 0.3s;
-		}
+	&:hover{
+		color: #CF9D6C;
+		scale: 1.1;
+		transition: 0.3s;
 	}
 }
 

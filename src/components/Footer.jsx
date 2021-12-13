@@ -80,7 +80,7 @@ const Footer = () => {
 							{t("socialnetwork")}
 						</p>
 						<p>
-							<a href="https://www.facebook.com">
+							<a href="https://www.facebook.com/people/Breton-Breaks/100075873763924/">
 								<FaFacebook
 									className="iconsfooter"
 									size={30} 
@@ -88,7 +88,7 @@ const Footer = () => {
 							</a>
 						</p>
 						<p>
-							<a href="https://www.instagram.com">
+							<a href="https://www.instagram.com/bretonbreaks/">
 								<FaInstagram
 									className="iconsfooter"
 									size={30}

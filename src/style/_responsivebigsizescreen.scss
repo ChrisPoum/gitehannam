@@ -1,7 +1,7 @@
 //middle size screen rules
 
 @media screen 
-	and (min-device-width: 1380px)
+	and (min-device-width: 1800px)
 	{
     //header and displayjumbotron
     .logotext{
@@ -47,7 +47,7 @@
 
             .image2{	
                 width: 25vw!important;
-                height: 20vh!important;
+                height: 30vh!important;
 
                 &:hover{
                     transform: none;
@@ -56,7 +56,7 @@
 
             .notes{
                 width: 25vw!important;
-                height: 20vh!important;
+                height: 30vh!important;
             }
 
             .iconsnotes{
@@ -79,6 +79,7 @@
         }
 
         .paragraph3{
+            padding-top: 2.5rem!important;
             font-size: 2rem!important;
         } 
 
@@ -130,6 +131,10 @@
             .text-muted{
                 font-size: 2rem!important;
             }
+        }
+
+        .sliderimage{
+            height: 626px;
         }
     }
     //Contacts
