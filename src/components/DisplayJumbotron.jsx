@@ -11,11 +11,9 @@ const DisplayJumbotron = () => {
 	const { t } = useTranslation();
     
 	return (
-		<Jumbotron className='DisplayJumbotron'>
-			<Row
-				className='firstrow'
-			>
-			</Row>
+		<>
+			<Jumbotron className='DisplayJumbotron'>
+			</Jumbotron>
 			<Row
 				className='secondrow'
 			>
@@ -28,13 +26,13 @@ const DisplayJumbotron = () => {
 						<span className="jumbolinetext">
 							{t("socialnetwork")}
 						</span>
-						<a href="https://www.facebook.com">
+						<a href="https://www.facebook.com/people/Breton-Breaks/100075873763924/">
 							<FaFacebook
 								className="iconsjumbo mx-2"
 								size={30} 
 							/>
 						</a>
-						<a href="https://www.instagram.com">
+						<a href="https://www.instagram.com/bretonbreaks/">
 							<FaInstagram
 								className="iconsjumbo mx-2"
 								size={30}
@@ -78,7 +76,7 @@ const DisplayJumbotron = () => {
 					</p>
 				</Col>
 			</Row>
-		</Jumbotron>
+		</>
 	);
 };
     

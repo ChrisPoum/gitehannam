@@ -31,7 +31,7 @@ export const TRANSLATIONS_FR = {
     season1:"Haute Saison",
     season2:"Basse Saison",
     price1:"250€ par nuit",
-    price2:"150€ par nuit",
+    price2:"200€ par nuit",
     bookingtext:"ou Réservez avec nos partenaires",
 
     //AboutUs
