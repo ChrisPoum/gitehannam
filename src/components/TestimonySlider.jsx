@@ -29,6 +29,7 @@ const TestimonySlider = () => {
 								<FaAirbnb
 									className="mx-2"
 									size={30} 
+									alt="icone airbnb"
 								/>
 								airbnb
 							</a>
@@ -56,6 +57,7 @@ const TestimonySlider = () => {
 								<FaAirbnb
 									className="mx-2"
 									size={30} 
+									alt="icone airbnb"
 								/>
 								airbnb
 							</a>
@@ -83,6 +85,7 @@ const TestimonySlider = () => {
 								<FaBook 
 									className="mx-2"
 									size={30}
+									alt="icone représentant booking.com"
 								/>
 								booking
 							</a>

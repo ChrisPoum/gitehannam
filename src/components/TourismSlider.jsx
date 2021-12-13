@@ -12,7 +12,7 @@ const TourismSlider = () => {
 					<img
 						src={imageleft}
 						className="w-100 shadow-1-strong rounded mb-4 imageleft"
-						alt="rue ange de Guernisac à Morlaix, maison à colombage."
+						alt="phare de l'île Louët dans la baie de Morlaix"
 					/>
 				</Col>
 				<Col xs={12} lg={8} mb={8} mb-lg={0} className="paragraph3 mx-0">

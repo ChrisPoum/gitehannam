@@ -26,6 +26,7 @@ const Header = ({setLanguage, language}) => {
 								< BsHouseDoor 
 								className="icons mt-3"
 								size={30} 
+								alt="icone maison"
 								/>
 							</Col>
 							<Col md={10}>
@@ -44,6 +45,7 @@ const Header = ({setLanguage, language}) => {
 								< HiOutlineMailOpen 
 								className="icons"
 								size={30}
+								alt="icone courrier"
 								/>
 							</Col>
 							<Col md={10} className="mt-1">
@@ -60,6 +62,7 @@ const Header = ({setLanguage, language}) => {
 								<FiPhone 
 								className="icons"
 								size={30}
+								alt="icone téléphone"
 								/>
 							</Col>
 							<Col md={10} >
