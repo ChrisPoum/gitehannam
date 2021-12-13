@@ -27,6 +27,9 @@ const Home = () => {
 					name="description"
 					content="Breton Breaks - la maison blanche (Morlaix, Finistère, Bretagne). Grande maison avec 10 couchages pour des locations de les vacances dans la baie de Morlaix, 15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
+				<meta property="og:title" content="Breton Breaks - la maison blanche" />
+				<meta property="og:description" content="Location de vacances - Breton Breaks - la maison blanche (Morlaix, Finistère, Bretagne). Grande maison avec 10 couchages pour des locations de les vacances dans la baie de Morlaix, 15 allée des violettes 29600 Saint-Martin-Des-Champs." /> 
+				<meta property="og:image" content="https://www.bretonbreaks.com/static/media/image2.bc4d1fb3.webp"/>
 				<meta http-equiv="Content-Security-Policy" 
 							content="default-src 'self'; 
 											script-src 'self' 'unsafe-inline'; 
