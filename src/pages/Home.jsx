@@ -18,7 +18,7 @@ const Home = () => {
 				<meta charset="utf-8" />
 				<link rel="icon" href="./triskelesmall.png" />
 				<link rel="apple-touch-icon" href="./triskelesmall.png" />
-				<link rel="manifest" href="/manifest.json" />
+				<link rel="manifest" href="https://www.bretonbreaks.com/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
 				<meta
@@ -35,6 +35,7 @@ const Home = () => {
 											font-src 'self' https://fonts.gstatic.com;
 											img-src * data: https:; 
 											frame-src *; 
+											manifest-src https://www.bretonbreaks.com/manifest.json;
 											base-uri 'self';" 
 				/>	
 			</Helmet>
@@ -61,11 +62,11 @@ const Home = () => {
 									<div className="notes d-flex align-items-center justify-content-center">
 										<div>
 											<p className="text-center">
-												<FaStar size={20}/>
-												<FaStar size={20}/>
-												<FaStar size={20}/>
-												<FaStar size={20}/>
-												<FaStar size={20}/>
+												<FaStar size={20} alt="icone étoile"/>
+												<FaStar size={20} alt="icone étoile"/>
+												<FaStar size={20} alt="icone étoile"/>
+												<FaStar size={20} alt="icone étoile"/>
+												<FaStar size={20} alt="icone étoile"/>
 											</p>
 											<p>
 												<a 
@@ -75,6 +76,7 @@ const Home = () => {
 													<FaAirbnb
 														className="mx-2"
 														size={30} 
+														alt="icone airbnb"
 													/>
 													Airbnb
 												</a>  
@@ -90,6 +92,7 @@ const Home = () => {
 													<FaBook
 														className="mx-2"
 														size={30} 
+														alt="icone représentant booking.com"
 													/>
 													Booking
 												</a>  

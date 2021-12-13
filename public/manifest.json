@@ -1,8 +1,12 @@
 {
   "short_name": "Breton Breaks",
   "name": "Breton Breaks",
-  "type": "rent for holidays",
-  "author": "Jérémy Querné",
+  "type": "rent a house for your holidays",
+  "author": "Françoise Hannam",
+  "developer": {
+    "name": "Jérémy Querné",
+    "url": "https://www.quejeweb.com"
+  },
   "date":"2021",
   "icons": [
     {
@@ -12,5 +16,6 @@
     }
   ],
   "start_url": "https://www.bretonbreaks.com",
-  "display": "standalone"
+  "version": "0.1",
+  "manifest_version": 2
 }

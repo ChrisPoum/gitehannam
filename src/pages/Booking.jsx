@@ -30,12 +30,12 @@ const Booking = () => {
 				<meta charset="utf-8" />
 				<link rel="icon" href="./triskelesmall.png" />
 				<link rel="apple-touch-icon" href="./triskelesmall.png" />
-				<link rel="manifest" href="/manifest.json" />
+				<link rel="manifest" href="https://www.bretonbreaks.com/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
 				<meta
 					name="description"
-					content="Réserver vos vacances avec Breton Breaks, grande maison avec 10 couchages pour des locations 
+					content="Réservez vos vacances avec Breton Breaks, grande maison avec 10 couchages pour des locations 
 					de les vacances dans la baie de Morlaix, 
 					15 allée des violettes 29600 Saint-Martin-Des-Champs."
 				/>
@@ -56,6 +56,7 @@ const Booking = () => {
 									<Card.Img 
 										variant="top" 
 										src= { cardtext.image } 
+										alt="plage de la grève blanche à Carantec dans la baie de Morlaix"
 									/>
 									<Card.Body>
 										<Card.Title>
@@ -84,18 +85,21 @@ const Booking = () => {
 												<FaAirbnb
 													className="iconsbooking mx-3"
 													size={30} 
+													alt="icone airbnb"
 												/>
 											</a>
 											<a href="https://www.booking.com/hotel/fr/maison-spacieuse-entre-la-ville-et-la-cote.fr.html?aid=356980;label=gog235jc-1DCAYoTUIIYnJldGFnbmVIDVgDaE2IAQGYAQ24ARnIAQ_YAQPoAQH4AQKIAgGoAgO4AvLh0YoGwAIB0gIkODg4NGU0ZTgtMTQ5MC00ZDJmLWFiMGEtM2EzMGNjYjgyNzBi2AIE4AIB;sid=1048d2d31fe8eb604eefb630d2084fba;dest_id=-1467113;dest_type=city;dist=0;group_adults=8;group_children=0;hapos=4;hpos=4;no_rooms=8;req_adults=8;req_children=0;room1=A;room2=A;room3=A;room4=A;room5=A;room6=A;room7=A;room8=A;sb_price_type=total;sr_order=popularity;srepoch=1632924026;srpvid=10d8627df6ae0145;type=total;ucfs=1&#hotelTmpl">
 												<FaBook 
 														className="iconsbooking mx-3"
 														size={30}
+														alt="icone représentant booking.com"
 													/>
 											</a>
 											<a href="https://www.tripadvisor.fr/VacationRentalReview-g608763-d16796118-Spacious_home_between_town_and_sea-Morlaix_Finistere_Brittany.html">
 												<FaTripadvisor 
 													className="iconsbooking mx-3"
 													size={30}
+													alt="icone tripadvisor"
 												/>
 											</a>
 										</Card.Text>
