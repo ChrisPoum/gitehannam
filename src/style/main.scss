@@ -27,40 +27,67 @@
 }
 
 .Header{
-	.overnavigation{
-		font-size: 14px;
-	}
 
 	.logotext{
 		font-family: "Caveat";
-		font-size: 60px;
+		font-size: 4rem;
 		color: #423A36;
-	}
-
-	.icons{
-		color: #423A36;
-	}
-
-	.links{
 		text-decoration: none;
-		color: #423A36;
-		
+
 		&:hover{
 			color: #CF9D6C;
-			transition: 0.5s;
+			transition: 0.3s;
 		}
 	}
 
-
-	.phonelink{
+	.links{
+		margin-top: 1rem;
 		text-decoration: none;
-		font-size: 20px!important;
 		color: #423A36;
 		
 		&:hover{
 			color: #CF9D6C;
-			font-size: 22px!important;
-			transition: 0.5s;
+			transition: 0.3s;
+		}
+	}
+
+	@media screen and (min-device-width: 1201px){
+		.houseicon{
+			width:72px;
+			margin-top: 1rem;
+
+			&:hover{
+				scale: 1.1;
+				transition: 0.3s;
+			}
+		}
+	}
+
+	.iconletter{
+		margin-right: 0.3rem;
+
+		&:hover{
+			scale: 1.1;
+			transition: 0.3s;
+		}
+	}
+
+	.iconphone{
+		margin-top: 0.3rem;
+		margin-right: 0.5rem;	
+
+		&:hover{
+			scale: 1.1;
+			transition: 0.3s;
+		}
+	}
+
+	.phonenumber{
+		font-size: 1.5rem;
+		
+		&:hover{
+			font-size: 1.6rem;
+			transition: 0.3s;
 		}
 	}
 
@@ -73,8 +100,7 @@
 		&:hover{
 			background-color: #CF9D6C!important;
 			border-color: #423A36!important;
-			color: white!important;
-			transition: 1s!important;
+			transition: 0.5s!important;
 		}
 
 		&:focus,
@@ -122,7 +148,8 @@
 }
 
 .jumboline{
-	font-size: 22px;
+	margin-top: 0.2rem;
+	font-size: 1.2rem;
 	color: #c8c0b8;
 }
 
@@ -136,6 +163,10 @@
 	}
 }
 
+.lefttext{
+	margin-right: 2rem;
+}
+
 //home page mainbody and subclasses
 
 .mainbody{
@@ -146,6 +177,12 @@
 		font-family: "Caveat";
 		font-size: 60px;
 		color: #423A36;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.sublogotext{
+		font-size: 40px;
 	}
 
 	.paragraph1{
@@ -246,7 +283,7 @@
 		}
 
 		.paragraph2{
-			padding-top: 4rem;
+			padding-top: 3rem;
 			padding-left: 2rem;
 			padding-right: 2rem;
 			text-align: justify;

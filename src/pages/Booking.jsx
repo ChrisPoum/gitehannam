@@ -63,9 +63,9 @@ const Booking = () => {
 											</h3>
 										</Card.Title>
 										<Card.Text>
-											<span className="price">
+											<p className="price">
 												{cardtext.price}
-											</span>
+											</p>
 											<Button className="btn-lg custombutton4 mt-1 mb-3">
 												<Link 
 													className="customlink4"

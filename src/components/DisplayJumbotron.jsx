@@ -54,7 +54,7 @@ const DisplayJumbotron = () => {
 					md={{span:4, offset:4}}
 					className="d-flex justify-content-end align-items-end"
 					>
-					<p className="jumboline">
+					<p className="jumboline lefttext">
 						<span className="jumbolinetext"> 
 							{t("findus")} 
 						</span>

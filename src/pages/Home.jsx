@@ -42,7 +42,10 @@ const Home = () => {
 				/>	
 			</Helmet>
 			<div className="mainbody">
-				<h1 className="logotext">Breton Breaks - La Maison Blanche</h1>
+				<h1 className="logotext text-center">
+					<p>Breton Breaks</p> 
+					<p className="sublogotext">La Maison Blanche</p> 
+				</h1>
 				<div className="description">
 					<Row className="m-auto d-flex align-items-center">
 						<Col sm={12} md={6}>
