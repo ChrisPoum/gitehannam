@@ -33,10 +33,11 @@ const Booking = () => {
 				<link rel="manifest" href="https://www.bretonbreaks.com/manifest.json" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
-				<title>Breton Breaks - La Maison blanche - Booking</title>
+				<title data-react-helmet="true">Breton Breaks - La Maison blanche - Booking</title>
 				<meta
 					name="description"
 					content="Réservez vos vacances avec Breton Breaks, grande maison avec 10 couchages pour des locations de les vacances dans la baie de Morlaix, 15 allée des violettes 29600 Saint-Martin-Des-Champs."
+					data-react-helmet="true"
 				/>
 			</Helmet>
 			<h2 className="mt-4 subtitle">
