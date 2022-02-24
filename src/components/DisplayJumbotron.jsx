@@ -5,7 +5,7 @@ import { FaAirbnb,
 				FaTripadvisor, 
 				FaFacebook, 
 				FaInstagram, 
-				FaYoutube } from "react-icons/fa";
+				} from "react-icons/fa";
 
 const DisplayJumbotron = () => {
 	const { t } = useTranslation();
@@ -40,13 +40,13 @@ const DisplayJumbotron = () => {
 								alt="icone instagram"
 							/>
 						</a>
-						<a href="https://www.youtube.com">
+						{/* <a href="https://www.youtube.com">
 							<FaYoutube 
 								className="iconsjumbo mx-2"
 								size={30}
 								alt="icone youtube"
 							/>
-						</a>
+						</a> */}
 					</p>
 				</Col>
 				<Col
