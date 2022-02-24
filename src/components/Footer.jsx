@@ -1,7 +1,7 @@
 import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FaAirbnb, FaTripadvisor, FaBook, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaAirbnb, FaTripadvisor, FaBook, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -100,7 +100,7 @@ const Footer = () => {
 								/>
 							</a>
 						</p>
-						<p>
+						{/* <p>
 							<a href="https://www.youtube.com">
 								<FaYoutube 
 									className="iconsfooter"
@@ -108,7 +108,7 @@ const Footer = () => {
 									alt="icone youtube"
 								/>
 							</a>
-						</p>
+						</p> */}
 					</Col>
 					<Col xs={12} md={4} className="text-center responsivedisplayed">
 						<p className="footertitle">
@@ -129,13 +129,13 @@ const Footer = () => {
 									alt="icone instagram"
 								/>
 							</a>
-							<a href="https://www.youtube.com">
+							{/* <a href="https://www.youtube.com">
 								<FaYoutube 
 									className="iconsfooter mx-2"
 									size={30}
 									alt="icone youtube"
 								/>
-							</a>
+							</a> */}
 						</p>
 					</Col>
 				</Row>
