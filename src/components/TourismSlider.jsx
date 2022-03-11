@@ -26,7 +26,12 @@ const TourismSlider = () => {
 						{t("paragraph3c")}
 					</p>
 					<Button className="custombutton3 btn-lg my-3 responsivebutton">
-						<a className="customlink3" href="http://www.baiedemorlaix.bzh/fr/">
+						<a 
+							className="customlink3" 
+							href="http://www.baiedemorlaix.bzh/fr/"
+							target="_blank" 
+							rel="noreferrer noopener"
+						>
 							{t("tourismlink")}
 						</a>
 					</Button>
