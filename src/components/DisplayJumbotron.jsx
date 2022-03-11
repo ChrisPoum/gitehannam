@@ -26,21 +26,33 @@ const DisplayJumbotron = () => {
 						<span className="jumbolinetext">
 							{t("socialnetwork")}
 						</span>
-						<a href="https://www.facebook.com/people/Breton-Breaks/100075873763924/">
+						<a 
+							href="https://www.facebook.com/people/Breton-Breaks/100075873763924/"
+							target="_blank" 
+							rel="noreferrer noopener" 
+						>
 							<FaFacebook
 								className="iconsjumbo mx-2"
 								size={30}
-								alt="icone facebook" 
+								alt="icone facebook"
 							/>
 						</a>
-						<a href="https://www.instagram.com/bretonbreaks/">
+						<a 
+							href="https://www.instagram.com/bretonbreaks/"
+							target="_blank" 
+							rel="noreferrer noopener"
+						>
 							<FaInstagram
 								className="iconsjumbo mx-2"
 								size={30}
 								alt="icone instagram"
 							/>
 						</a>
-						{/* <a href="https://www.youtube.com">
+						{/* <a 
+								href="https://www.youtube.com"
+								target="_blank" 
+								rel="noreferrer noopener"
+							>
 							<FaYoutube 
 								className="iconsjumbo mx-2"
 								size={30}
@@ -58,21 +70,33 @@ const DisplayJumbotron = () => {
 						<span className="jumbolinetext"> 
 							{t("findus")} 
 						</span>
-						<a href="https://www.airbnb.fr/rooms/32776476?adults=1&check_in=2021-11-18&check_out=2021-11-25&translate_ugc=false&federated_search_id=cc5d8057-3968-4899-8a9e-8870c128211a&source_impression_id=p3_1632923532_LPaxysa6RBVuPhaJ&guests=1">
+						<a 
+							href="https://www.airbnb.fr/rooms/32776476?adults=1&check_in=2021-11-18&check_out=2021-11-25&translate_ugc=false&federated_search_id=cc5d8057-3968-4899-8a9e-8870c128211a&source_impression_id=p3_1632923532_LPaxysa6RBVuPhaJ&guests=1"
+							target="_blank" 
+							rel="noreferrer noopener"
+						>
 							<FaAirbnb
 								className="iconsjumbo mx-2"
 								size={30}
-								alt="icone airbnb" 
+								alt="icone airbnb"
 							/>
 						</a>
-						<a href="https://www.booking.com/hotel/fr/maison-spacieuse-entre-la-ville-et-la-cote.fr.html?aid=356980;label=gog235jc-1DCAYoTUIIYnJldGFnbmVIDVgDaE2IAQGYAQ24ARnIAQ_YAQPoAQH4AQKIAgGoAgO4AvLh0YoGwAIB0gIkODg4NGU0ZTgtMTQ5MC00ZDJmLWFiMGEtM2EzMGNjYjgyNzBi2AIE4AIB;sid=1048d2d31fe8eb604eefb630d2084fba;dest_id=-1467113;dest_type=city;dist=0;group_adults=8;group_children=0;hapos=4;hpos=4;no_rooms=8;req_adults=8;req_children=0;room1=A;room2=A;room3=A;room4=A;room5=A;room6=A;room7=A;room8=A;sb_price_type=total;sr_order=popularity;srepoch=1632924026;srpvid=10d8627df6ae0145;type=total;ucfs=1&#hotelTmpl">
+						<a 
+							href="https://www.booking.com/hotel/fr/maison-spacieuse-entre-la-ville-et-la-cote.fr.html?aid=356980;label=gog235jc-1DCAYoTUIIYnJldGFnbmVIDVgDaE2IAQGYAQ24ARnIAQ_YAQPoAQH4AQKIAgGoAgO4AvLh0YoGwAIB0gIkODg4NGU0ZTgtMTQ5MC00ZDJmLWFiMGEtM2EzMGNjYjgyNzBi2AIE4AIB;sid=1048d2d31fe8eb604eefb630d2084fba;dest_id=-1467113;dest_type=city;dist=0;group_adults=8;group_children=0;hapos=4;hpos=4;no_rooms=8;req_adults=8;req_children=0;room1=A;room2=A;room3=A;room4=A;room5=A;room6=A;room7=A;room8=A;sb_price_type=total;sr_order=popularity;srepoch=1632924026;srpvid=10d8627df6ae0145;type=total;ucfs=1&#hotelTmpl"
+							target="_blank" 
+							rel="noreferrer noopener"
+						>
 							<FaBook 
 								className="iconsjumbo mx-2"
 								size={30}
 								alt="icone représentant booking.com"
 							/>
 						</a>
-						<a href="https://www.tripadvisor.fr/VacationRentalReview-g608763-d16796118-Spacious_home_between_town_and_sea-Morlaix_Finistere_Brittany.html">
+						<a 
+							href="https://www.tripadvisor.fr/VacationRentalReview-g608763-d16796118-Spacious_home_between_town_and_sea-Morlaix_Finistere_Brittany.html"
+							target="_blank" 
+							rel="noreferrer noopener"
+						>
 							<FaTripadvisor 
 								className="iconsjumbo mx-2"
 								size={30}

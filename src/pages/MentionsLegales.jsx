@@ -30,7 +30,14 @@ const MentionsLegales = () => {
 					<u>Réalisation technique :</u>
 				</h3>
 				<p>Ce site est géré par 
-					<a className="mentionlink" href="https://queje.github.io/"> Jérémy Querné </a>
+					<a 
+						className="mentionlink" 
+						href="https://queje.github.io/" 
+						target="_blank" 
+						rel="noreferrer noopener"
+					> 
+						Jérémy Querné 
+					</a>
 					pour le compte de Christopher Hannam.
 				</p>
 				<p>
@@ -41,8 +48,8 @@ const MentionsLegales = () => {
 				<h3 className="subtitlecustom">
 					<u>Droits d'auteurs, copyright, liens :</u>
 				</h3>
-				<p>Le nom de domaine a été obtenu chez <a className="mentionlink" href="https://www.ovh.com">www.ovh.com</a></p>
-				<p>le site est hébergé par <a className="mentionlink" href="https://www.vercel.com">www.vercel.com</a></p>
+				<p>Le nom de domaine a été obtenu chez <a className="mentionlink" href="https://www.ovh.com" target="_blank" rel="noreferrer noopener">www.ovh.com</a></p>
+				<p>le site est hébergé par <a className="mentionlink" href="https://www.vercel.com" target="_blank" rel="noreferrer noopener">www.vercel.com</a></p>
 				<h3 className="subtitlecustom">
 					<u>Reproduction sur support papier :</u>
 				</h3>

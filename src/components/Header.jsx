@@ -24,6 +24,8 @@ const Header = ({setLanguage, language}) => {
 						<a 
 							href="https://www.google.fr/maps/place/15+All.+des+Violettes,+29600+Saint-Martin-des-Champs/@48.5818244,-3.8717121,13z/data=!4m5!3m4!1s0x481160d41bb5eae5:0x965f530bb35122fc!8m2!3d48.5794928!4d-3.8422722"
 							className="links d-inline-flex mt-1"
+							target="_blank" 
+							rel="noreferrer noopener"
 						>
 							<GiHouse 
 							className="houseicon"
